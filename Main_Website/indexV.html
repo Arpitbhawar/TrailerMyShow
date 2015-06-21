@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trailer Duniya</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Trailer Duniya</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+    <!-- Page Heading -->
+        <div class="row">
+            <div class="col-md-10">
+                <h2 class="page-header" id="watch-heading">Watch out for best movies around you</h2>
+                <h1><small>Trailers</small></h1>
+            </div>
+
+            <div id="angular-div" ng-app="myApp" ng-controller="customersCtrl" class="col-md-2"> 
+
+            <h4>Select City: </h4><select  ng-model="city" ng-options="option for option in listOfOptions" ng-change="fetch()">
+            </select>
+            
+            
+            <h4>Languages: </h4><select ng-model="availableLanguages" ng-options="option for option in listOfOptions1" ng-change="fetchLang()"></select>
+            
+            </div>
+            
+
+
+        </div>
+        <!-- /.row -->
+        <div  id="moviesdiv">
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+     <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer> 
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+
+    <script type="text/javascript">
+        function addVideos(movlist)
+        {
+            $('#moviesdiv').text('');
+            var e1='<div class="row">'
+            var e2='<div class="col-md-7">'
+	    var e3='<div class="flex-video widescreen">'
+            var e4='</div>'
+	    var e6='</div>'
+            var e5='<div class="col-md-5">'
+            var e8='</div></div><hr>'
+            for(var i=0;i<movlist.length;i++)
+            {
+                var video = '<iframe width="500" height="300" src=http://www.youtube.com/embed/'+movlist[i][1][0]+'></iframe>'
+                var name = '<h3>'+movlist[i][0]+'</h3>';
+                var rating = '<h4>Rating: '+movlist[i][1][1]+'</h4>';
+                var duration = '<h4>Duration: '+movlist[i][1][2]+'</h4>';
+                var genre = '<h4>Genre: '+movlist[i][1][3]+'</h4>';
+
+                $('#moviesdiv').append(e1+e2+e3+video+e4+e6+e5+name+rating+duration+genre+e8);
+            }
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        function onlyUnique(value, index, self) { 
+    return self.indexOf(value) === index;
+    }
+    function getLanguage(d,defaultLanguage){
+        console.log("laungauge in getdata "+defaultLanguage);
+        var items = Object.keys(d).map(function(key) {
+            
+            return [key, d[key]]; 
+        });
+        var varLanguages=[];
+        for (var i=0;i<items.length;i++){
+
+            //console.log(items[i][1][4]);
+            varLanguages.push(items[i][1][4]);
+        }
+        console.log(varLanguages);
+        var unique = varLanguages.filter( onlyUnique ); // returns ['a', 1, 2, '1']
+        console.log(unique);
+        return unique;
+        
+
+    }
+
+
+
+    </script>
+
+    <script type="text/javascript">
+    
+
+    
+    function getData(d,defaultLanguage)
+    {   
+        
+        console.log(defaultLanguage);
+        var items = Object.keys(d).map(function(key) {
+            
+            return [key, d[key]]; 
+        });
+
+        // Sort the array based on the second element
+        //selectEl = document.getElementById('availableLanguages');
+
+        //for(var i = 0; i < unique.length; i++){
+         //   selectEl.options.add(new Option(unique[i]));
+        //}  
+        
+
+
+
+        items.sort(function(first, second) {
+            return second[1][1] - first[1][1]; });
+        
+        addVideos(items);
+
+    }
+    </script>
+
+    <script type="text/javascript">
+        function getlocation(geolocation)
+        {   
+            console.log("inside getlocation");
+            var add_comp = geolocation['results'][0]["address_components"];
+            for(var i=0;i<add_comp.length;i++)
+            {
+                if(add_comp[i].types[0]=="locality")
+                    return add_comp[i].long_name;
+            }
+            
+            return '';
+        }
+
+    </script>
+
+
+    <script>
+        var app = angular.module('myApp', []);
+        var defaultLanguage='Hindi';
+        var selectedLang='';
+        var defaultCity='';
+        var SelectedCity='';
+        var path="Output/";
+        var arrayoptions;
+        var url_latlong="https://maps.googleapis.com/maps/api/geocode/json?latlng=12.9969985,77.6961477&key=AIzaSyAnDZW0tBPqfnDQ0JC7KeBoaEFhfzr9JlE";
+        
+        app.controller('customersCtrl',function($scope, $http) {
+
+            $http.get(url_latlong).success(function(data){
+                defaultCity=getlocation(data).toLowerCase();
+                console.log("default City "+defaultCity);
+                var cur_txt=$("#watch-heading").text();
+                $("#watch-heading").text(cur_txt+" in ("+defaultCity+")");
+            
+                $http.get(path+defaultCity+".json").success(function(response){getData(response,defaultLanguage);});
+                $http.get(path+defaultCity+".json").success(function(response){arrayoptions= getLanguage(response,defaultLanguage);});
+
+            });
+            console.log(arrayoptions);
+            $scope.listOfOptions = ['agartala', 'agra', 'ahmedabad', 'ajmer', 'aligarh', 'allahabad', 'amritsar', 'aurangabad', 'bengaluru', 'bhopal', 'bilaspur', 'chandigarh', 'chennai', 'coimbatore', 'dehradun', 'durgapur', 'goa', 'guwahati', 'gwalior', 'haridwar', 'hyderabad', 'indore', 'jabalpur', 'jaipur', 'jamnagar', 'jamshedpur', 'jodhpur', 'kanpur', 'kolhapur', 'kolkata', 'kota', 'lucknow', 'ludhiana', 'madurai', 'mangalore', 'meerut', 'mumbai', 'muzaffarnagar', 'mysore', 'narpur', 'nashik', 'patiala', 'patna', 'pune', 'raipur', 'rajkot', 'ranchi', 'rohtak', 'solapur', 'surat', 'udaipur', 'ujjain', 'vadodara'];
+
+            
+            $scope.fetch=function(){
+                console.log("inside fetch function");
+            var city_name = $scope.city+'.json';
+                SelectedCity=$scope.city;
+            if($scope.city!=defaultCity)
+            {   console.log($scope.city);
+                var cur_txt='';
+                cur_txt=$("#watch-heading").text();
+
+                $("#watch-heading").text(cur_txt+" in ("+$scope.city+")");
+                $http.get(path+city_name).success(function (response) {getData(response,defaultLanguage);});
+
+            }
+    }
+            $scope.fetchLang=function(){
+                    defaultLanguage=$('#availableLanguages').value;
+                    var city_name=defaultCity+'.json';
+
+                    console.log("testing to fetch language "+defaultLanguage);
+                    $http.get(path+city_name).success(function (response) {getData(response,defaultLanguage);});
+                }
+
+    });
+    </script>
+
+    
+</body>
+
+</html>
