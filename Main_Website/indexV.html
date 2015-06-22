@@ -13,7 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <!-- Custom CSS -->
     <link href="css/1-col-portfolio.css" rel="stylesheet">
 
@@ -64,27 +64,26 @@
     <div class="container">
 
     <!-- Page Heading -->
-        <div class="row">
-            <div class="col-md-10">
-                <h2 class="page-header" id="watch-heading">Watch out for best movies around you</h2>
+        <div class="row" >
+            <div class="col-md-8">
+                <h2 class="page-header" id="watch-heading">Watch out for the best movies </h2>
                 <h1><small>Trailers</small></h1>
             </div>
 
             <div id="angular-div" ng-app="myApp" ng-controller="customersCtrl" class="col-md-2"> 
 
-            <h4>Select City: </h4><select  ng-model="city" ng-options="option for option in listOfOptions" ng-change="fetch()">
+            <h4>Select City: </h4><select id="angular-select" ng-model="city" ng-options="option for option in listOfOptions" ng-change="fetch()" ng-selected="Bangalore">
             </select>
-            
-            
-            <h4>Languages: </h4><select ng-model="availableLanguages" ng-options="option for option in listOfOptions1" ng-change="fetchLang()"></select>
-            
             </div>
-            
+            <div class="col-md-2">
+            <h4>Language: </h4><select id="uniqueLang" ></select>
+            </div>
+
 
 
         </div>
         <!-- /.row -->
-        <div  id="moviesdiv">
+        <div  id="moviesdiv" >
 
         </div>
 
@@ -113,150 +112,181 @@
         function addVideos(movlist)
         {
             $('#moviesdiv').text('');
-            var e1='<div class="row">'
-            var e2='<div class="col-md-7">'
-	    var e3='<div class="flex-video widescreen">'
-            var e4='</div>'
-	    var e6='</div>'
-            var e5='<div class="col-md-5">'
-            var e8='</div></div><hr>'
+            
             for(var i=0;i<movlist.length;i++)
             {
-                var video = '<iframe width="500" height="300" src=http://www.youtube.com/embed/'+movlist[i][1][0]+'></iframe>'
-                var name = '<h3>'+movlist[i][0]+'</h3>';
-                var rating = '<h4>Rating: '+movlist[i][1][1]+'</h4>';
-                var duration = '<h4>Duration: '+movlist[i][1][2]+'</h4>';
-                var genre = '<h4>Genre: '+movlist[i][1][3]+'</h4>';
+                var outerDiv=$("<div>").addClass("row");
+                var innerVideoDiv=$("<div>").addClass("col-md-7");
+                var videoAttrDiv=$("<div>").addClass("flex-video widescreen");
+                var videoFrame=$("<iframe>").attr("height","300").attr("width","500").attr("src","http://www.youtube.com/embed/"+movlist[i][1][0]);
+                var innerTxtDiv=$("<div>").addClass("col-md-5");
+                
+                var name = $("<h3>").text(movlist[i][0]);
+                var rating =$("<h4>").text("IMDB Rating :  "+movlist[i][1][1]); 
+                var duration =$("<h4>").text("Duration  :  "+movlist[i][1][2]);
+                var genre = $("<h4>").text("Genre       :  "+movlist[i][1][3]);
 
-                $('#moviesdiv').append(e1+e2+e3+video+e4+e6+e5+name+rating+duration+genre+e8);
+
+                $('#moviesdiv').append(outerDiv.append(innerVideoDiv.append(videoAttrDiv.append(videoFrame)),innerTxtDiv.append(name,rating,duration,genre)),"<hr>");
             }
+
+
         }
 
     </script>
 
+
     <script type="text/javascript">
-        function onlyUnique(value, index, self) { 
-    return self.indexOf(value) === index;
+
+    var items;
+
+    function onlyUnique(value, index, self) { 
+        return self.indexOf(value) === index;
     }
-    function getLanguage(d,defaultLanguage){
-        console.log("laungauge in getdata "+defaultLanguage);
-        var items = Object.keys(d).map(function(key) {
-            
+    function changeLanguage(){
+
+
+    }
+
+    function getData(d)
+    {
+        items = Object.keys(d).map(function(key) {
+
             return [key, d[key]]; 
         });
-        var varLanguages=[];
+
+        var hindiMovies=[];
+        var allLanguages=[];
         for (var i=0;i<items.length;i++){
 
-            //console.log(items[i][1][4]);
-            varLanguages.push(items[i][1][4]);
+            allLanguages.push(items[i][1][4]);
+            if(items[i][1][4]=="Hindi"){
+                hindiMovies.push(items[i]);
+            }
         }
-        console.log(varLanguages);
-        var unique = varLanguages.filter( onlyUnique ); // returns ['a', 1, 2, '1']
-        console.log(unique);
-        return unique;
-        
 
-    }
-
-
-
-    </script>
-
-    <script type="text/javascript">
-    
-
-    
-    function getData(d,defaultLanguage)
-    {   
-        
-        console.log(defaultLanguage);
-        var items = Object.keys(d).map(function(key) {
-            
-            return [key, d[key]]; 
-        });
+        var uniqueLanguages = allLanguages.filter( onlyUnique );
+        addLanguages(uniqueLanguages);
 
         // Sort the array based on the second element
-        //selectEl = document.getElementById('availableLanguages');
-
-        //for(var i = 0; i < unique.length; i++){
-         //   selectEl.options.add(new Option(unique[i]));
-        //}  
-        
-
-
-
-        items.sort(function(first, second) {
+        hindiMovies.sort(function(first, second) {
             return second[1][1] - first[1][1]; });
         
-        addVideos(items);
+        addVideos(hindiMovies);
 
     }
-    </script>
+    function addLanguages(uniqueLanguages){
+        var sel=$('#uniqueLang');
+        sel.text('');
 
-    <script type="text/javascript">
-        function getlocation(geolocation)
-        {   
-            console.log("inside getlocation");
-            var add_comp = geolocation['results'][0]["address_components"];
-            for(var i=0;i<add_comp.length;i++)
-            {
-                if(add_comp[i].types[0]=="locality")
-                    return add_comp[i].long_name;
-            }
-            
-            return '';
+        for(var i = 0; i < uniqueLanguages.length; i++) {
+            var opt = $('<option>');
+            opt.text(uniqueLanguages[i]);
+            opt.value = uniqueLanguages[i];
+            if(uniqueLanguages[i]=="Hindi")
+                opt.attr("selected","selected");
+            sel.append(opt);
         }
+    }
+    $(function(){
+        $('#uniqueLang').on('change',function(){
+
+            console.log(this.value);
+            var filteMovies=[];
+            var selectedLang=this.value;
+            for (var i=0;i<items.length;i++){
+            if(items[i][1][4]==selectedLang){
+                filteMovies.push(items[i]);
+
+            }
+
+        }
+        $('#moviesdiv').text('');
+        filteMovies.sort(function(first, second) {
+            return second[1][1] - first[1][1]; });
+
+        addVideos(filteMovies);
+
+
+        });
+
+    });
 
     </script>
+
+    
 
 
     <script>
+    
+
         var app = angular.module('myApp', []);
-        var defaultLanguage='Hindi';
-        var selectedLang='';
+
         var defaultCity='';
-        var SelectedCity='';
         var path="Output/";
-        var arrayoptions;
-        var url_latlong="https://maps.googleapis.com/maps/api/geocode/json?latlng=12.9969985,77.6961477&key=AIzaSyAnDZW0tBPqfnDQ0JC7KeBoaEFhfzr9JlE";
+
+    //var latitude=12.9969985;
+    //var longitude=77.6961477;
+    /*function getLatLong() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(setPosition);
+    } else { 
+        alert("Geolocation is not supported by this browser seting you current location to bangalore");
+    }
+}
+
+function setPosition(position) {
+    latitude = position.coords.latitude;
+    longitude=position.coords.longitude;  
+    console.log("latitude "+latitude );
+    console.log("longitude "+longitude);
+}  */  
+
+//var latitude=google.loader.ClientLocation["latitude"];
+//var longitude=google.loader.ClientLocation["longitude"];
+//console.log(google.loader.ClientLocation["address"]["city"]);
         
-        app.controller('customersCtrl',function($scope, $http) {
 
-            $http.get(url_latlong).success(function(data){
-                defaultCity=getlocation(data).toLowerCase();
-                console.log("default City "+defaultCity);
+        app.controller('customersCtrl',function($scope, $http) { 
+   // var url_latlong="https://maps.googleapis.com/maps/api/geocode/json?latlng="+latitude+","+longitude+"+&key=AIzaSyAnDZW0tBPqfnDQ0JC7KeBoaEFhfzr9JlE";
+
+
+
+            //$http.get(url_latlong).success(function(data){
+                //defaultCity=getlocation(data);
+                try{
+                    defaultCity=google.loader.ClientLocation["address"]["city"];
+                }
+                catch(err){
+                    defaultCity="Bengaluru";
+                }
+                console.log(defaultCity);
                 var cur_txt=$("#watch-heading").text();
-                $("#watch-heading").text(cur_txt+" in ("+defaultCity+")");
-            
-                $http.get(path+defaultCity+".json").success(function(response){getData(response,defaultLanguage);});
-                $http.get(path+defaultCity+".json").success(function(response){arrayoptions= getLanguage(response,defaultLanguage);});
+                $("#watch-heading").text(cur_txt+" in "+ defaultCity);
 
-            });
-            console.log(arrayoptions);
-            $scope.listOfOptions = ['agartala', 'agra', 'ahmedabad', 'ajmer', 'aligarh', 'allahabad', 'amritsar', 'aurangabad', 'bengaluru', 'bhopal', 'bilaspur', 'chandigarh', 'chennai', 'coimbatore', 'dehradun', 'durgapur', 'goa', 'guwahati', 'gwalior', 'haridwar', 'hyderabad', 'indore', 'jabalpur', 'jaipur', 'jamnagar', 'jamshedpur', 'jodhpur', 'kanpur', 'kolhapur', 'kolkata', 'kota', 'lucknow', 'ludhiana', 'madurai', 'mangalore', 'meerut', 'mumbai', 'muzaffarnagar', 'mysore', 'narpur', 'nashik', 'patiala', 'patna', 'pune', 'raipur', 'rajkot', 'ranchi', 'rohtak', 'solapur', 'surat', 'udaipur', 'ujjain', 'vadodara'];
+                //$("#angular-select").attr("ng-init","city="+defaultCity);
 
+
+                $http.get(path+defaultCity+".json").success(function(response){getData(response);});
+                $scope.city=defaultCity;
+
+            //});
             
+            $scope.listOfOptions = ['Agartala', 'Agra', 'Ahmedabad', 'Ajmer', 'Aligarh', 'Allahabad', 'Amritsar', 'Aurangabad', 'Bengaluru', 'Bhopal', 'Bilaspur', 'Chandigarh', 'Chennai', 'Coimbatore', 'Dehradun', 'Durgapur', 'Goa', 'Guwahati', 'Gwalior', 'Haridwar', 'Hyderabad', 'Indore', 'Jabalpur', 'Jaipur', 'Jamnagar', 'Jamshedpur', 'Jodhpur', 'Kanpur', 'Kolhapur', 'Kolkata', 'Kota', 'Lucknow', 'Ludhiana', 'Madurai', 'Mangalore', 'Meerut', 'Mumbai', 'Muzaffarnagar', 'Mysore', 'Nagpur', 'Nashik', 'Patiala', 'Patna', 'Pune', 'Raipur', 'Rajkot', 'Ranchi', 'Rohtak', 'Solapur', 'Surat', 'Udaipur', 'Ujjain', 'Vadodara'];
+            
+
             $scope.fetch=function(){
-                console.log("inside fetch function");
             var city_name = $scope.city+'.json';
-                SelectedCity=$scope.city;
             if($scope.city!=defaultCity)
-            {   console.log($scope.city);
-                var cur_txt='';
-                cur_txt=$("#watch-heading").text();
-
-                $("#watch-heading").text(cur_txt+" in ("+$scope.city+")");
-                $http.get(path+city_name).success(function (response) {getData(response,defaultLanguage);});
+            {
+                var cur_txt="Watch out for best movies around you in ";
+                $("#watch-heading").text(cur_txt+$scope.city);
+                $http.get(path+city_name).success(function (response) {getData(response);});
+                defaultCity="";
 
             }
-    }
-            $scope.fetchLang=function(){
-                    defaultLanguage=$('#availableLanguages').value;
-                    var city_name=defaultCity+'.json';
+        }
 
-                    console.log("testing to fetch language "+defaultLanguage);
-                    $http.get(path+city_name).success(function (response) {getData(response,defaultLanguage);});
-                }
 
     });
     </script>
