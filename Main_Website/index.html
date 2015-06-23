@@ -187,18 +187,25 @@
 
     function getData(d)
     {
+        console.log("inside get data");
         items = Object.keys(d).map(function(key) {
 
             return [key, d[key]]; 
         });
-
+        console.log(items);
         var hindiMovies=[];
         var allLanguages=[];
         for (var i=0;i<items.length;i++){
-
-            allLanguages.push(items[i][1][4]);
-            if(items[i][1][4]=="Hindi" || items[i][1][4]==""){
-                hindiMovies.push(items[i]);
+            for(var j=0;j<items[i][1][4].length;j++)
+            {
+                console.log(items[i][1][4][j]);
+                allLanguages.push(items[i][1][4][j]);    
+            
+            
+                if(items[i][1][4][j]=="Hindi" || items[i][1][4][j]=="")
+                {
+                    hindiMovies.push(items[i]);
+                }
             }
         }
 
