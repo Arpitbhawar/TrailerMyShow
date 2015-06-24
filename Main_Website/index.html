@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Trailer Duniya</title>
+    <title>TrailerMyShow</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,11 +27,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <style type="text/css">
     	body {
    		 padding-top: 70px; 
-    	 background-image:url('img/back.jpg');
+    	 
     	 
     	 background-repeat: no-repeat;
     	 background-attachment: fixed;
@@ -63,15 +64,8 @@
         <div class="container">
            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <a class="navbar-brand" href="#">Trailer Duniya</a>
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" >About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+            <a class="navbar-brand" href="#">Trailer My Show</a>
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -84,7 +78,8 @@
     <!-- Page Heading -->
         <div class="row">
             <div class="col-md-8">
-                <h2 id="watch-heading">Watch out for best movies in your city </h2>
+                <h3 id="description"> Watch trailers of the latest movies released in your own city<h3>
+                <h2 id="watch-heading">Movies Currently running in Cinemas : </h2>
                 <h1><small>Trailers</small></h1>
             </div>
 
@@ -180,11 +175,7 @@
     function onlyUnique(value, index, self) { 
         return self.indexOf(value) === index;
     }
-    function changeLanguage(){
-
-
-    }
-
+    
     function getData(d)
     {
         console.log("inside get data");
@@ -192,7 +183,7 @@
 
             return [key, d[key]]; 
         });
-        console.log(items);
+        console.log(items[1][1]);
         var hindiMovies=[];
         var allLanguages=[];
         for (var i=0;i<items.length;i++){
@@ -208,8 +199,10 @@
                 }
             }
         }
+        allLanguages.push("All");
 
         var uniqueLanguages = allLanguages.filter( onlyUnique );
+
         addLanguages(uniqueLanguages);
 
         // Sort the array based on the second element
@@ -237,13 +230,26 @@
 
             var filteMovies=[];
             var selectedLang=this.value;
-            for (var i=0;i<items.length;i++){
-            if(items[i][1][4]==selectedLang){
-                filteMovies.push(items[i]);
 
+            if (selectedLang=="All")
+            {
+            	for (var i=0 ; i<items.length;i++){
+            		filteMovies.push(items[i]);
+            	}
+            }
+            else {
+
+
+            for (var i=0;i<items.length;i++){
+                for(var j=0;j<items[i][1][4].length;j++){
+                    if(items[i][1][4][j]==selectedLang){
+                        filteMovies.push(items[i]);
+                    }
             }
 
         }
+
+    }
         $('#moviesdiv').text('');
         filteMovies.sort(function(first, second) {
             return second[1][1] - first[1][1]; });
@@ -255,7 +261,29 @@
 
     });
 
+
+
     </script>
+
+
+    <script type="text/javascript">
+        function getlocation(geolocation)
+        {   
+            console.log("inside getlocation");
+            var add_comp = geolocation['results'][0]["address_components"];
+            for(var i=0;i<add_comp.length;i++)
+            {
+                if(add_comp[i].types[0]=="locality")
+                	{	console.log(" found city "+ add_comp[i].long_name);
+                    return add_comp[i].long_name;
+                }
+            }
+            alert("Selecting Bengaluru as default City");
+            return 'Bengaluru';
+        }
+
+    </script>
+   
 
         <script>
         var app = angular.module('myApp', []);
@@ -272,26 +300,54 @@
 
                
         app.controller('customersCtrl',function($scope, $http) {
+            try {
+	var latitude=google.loader.ClientLocation.latitude;
+	var longitude=google.loader.ClientLocation.longitude;
+    
+}
+catch(err){
 
-        		try{
+    var latitude=12.962793;
+    var longitude=77.7116525;
+    alert("Setting Default city to Bengaluru");
+}
+	var url_latlong="https://maps.googleapis.com/maps/api/geocode/json?latlng="+latitude+","+longitude+"&key=AIzaSyAnDZW0tBPqfnDQ0JC7KeBoaEFhfzr9JlE";
+	console.log(url_latlong);
+
+		$http.get(url_latlong).success(function(data){
+                defaultCity=getlocation(data);
+                console.log(defaultCity);
+       
+
+
+        		/*try{
+        			console.log(" latitude "+google.loader.ClientLocation.latitude);
+        			console.log(" longitude "+google.loader.ClientLocation.longitude);
                 	defaultCity=google.loader.ClientLocation["address"]["city"];
                 }
                 catch(err){
                 	defaultCity="Bengaluru";
-                }
+                }*/
                 var cur_txt=$("#watch-heading").text();
                 $("#watch-heading").text(cur_txt+ defaultCity);
                 $scope.city = defaultCity;
                 $http.get(path+defaultCity+".json").success(function(response){getData(response);});
+            });
             
-            $scope.listOfOptions = ['Agartala', 'Agra', 'Ahmedabad', 'Ajmer', 'Aligarh', 'Allahabad', 'Amritsar', 'Aurangabad', 'Bengaluru', 'Bhopal', 'Bilaspur', 'Chandigarh', 'Chennai', 'Coimbatore', 'Dehradun', 'Durgapur', 'Goa', 'Guwahati', 'Gwalior', 'Haridwar', 'Hyderabad', 'Indore', 'Jabalpur', 'Jaipur', 'Jamnagar', 'Jamshedpur', 'Jodhpur', 'Kanpur', 'Kolhapur', 'Kolkata', 'Kota', 'Lucknow', 'Ludhiana', 'Madurai', 'Mangalore', 'Meerut', 'Mumbai', 'Muzaffarnagar', 'Mysore', 'Nagpur', 'Nashik', 'Patiala', 'Patna', 'Pune', 'Raipur', 'Rajkot', 'Ranchi', 'Rohtak', 'Solapur', 'Surat', 'Udaipur', 'Ujjain', 'Vadodara'];
+            $scope.listOfOptions = ['Agartala', 'Agra', 'Ahmedabad', 'Ajmer', 'Aligarh', 'Allahabad', 'Amritsar', 'Aurangabad', 'Bengaluru', 'Bhopal', 'Bilaspur', 'Chandigarh', 'Chennai', 'Coimbatore', 'Dehradun', 'Durgapur', 'Goa', 'Guwahati', 'Gwalior', 'Haridwar', 'Hyderabad', 'Indore', 'Jabalpur', 'Jaipur', 'Jamnagar', 'Jamshedpur', 'Jodhpur', 'Kanpur', 'Kolhapur', 'Kolkata', 'Kota', 'Lucknow', 'Ludhiana', 'Madurai', 'Mangalore', 'Meerut', 'Mumbai', 'Muzaffarnagar', 'Mysore', 'Nagpur', 'Nashik','NCR', 'Patiala', 'Patna', 'Pune', 'Raipur', 'Rajkot', 'Ranchi', 'Rohtak', 'Solapur', 'Surat', 'Udaipur', 'Ujjain', 'Vadodara'];
             
 
             $scope.fetch=function(){
+                if ($scope.city='NCR'){
+                    var city_name ="national-capital-region-ncr.json";
+                }
+                else{
             var city_name = $scope.city+'.json';
+                }
+            
             if($scope.city!=defaultCity)
             {
-                var cur_txt="Watch out for best movies in your city  ";
+                var cur_txt="Movies Currently running in Cinemas : ";
                 $("#watch-heading").text(cur_txt+$scope.city);
                 $http.get(path+city_name).success(function (response) {getData(response);});
                 defaultCity="";
