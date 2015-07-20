@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
 
@@ -12,6 +12,7 @@
     <title>TrailerMyShow</title>
 
     <!-- Bootstrap Core CSS -->
+    <script src="js/jquery.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,72 +21,135 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-
+    
         <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    
+    <script src="js/addMovies.js"></script>
+    <script src="js/getData.js"></script>
+    <script src="js/googleanalytics.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+      
     <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js"></script>
     <style type="text/css">
-    	body {
-   		 padding-top: 70px; 
-    	 
-    	 
-    	 background-repeat: no-repeat;
-    	 background-attachment: fixed;
-		}
+        body {
+         padding-top: 70px; 
+         
+         background-image: url("img/back2.jpg");
+            background-repeat: repeat-y;
+         background-attachment: fixed;
+         color:wheat;
+        }
+        .modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #A23223;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+ .modal-body p{
+    text-align:center;
+    font-size:20px;
+    color:black;
+}
+        .navbar
+        {
+            background-color:#A23223;
+        }
 
-		.navbar
-		{
-			background-color:#005C1F;
-		}
-		#angular-div{
-			max-width:100%;
-		}
-		##moviesdiv{
-			max-width:100%;
-		}
-		iframe
-		{
-			 max-width: 100%;
-		}
+        
+        #angular-div,#language-select{
+            max-width:100%;
+            color: wheat;
+
+        }
+        select {
+            font-family: Cursive;
+            color:#000;
+
+        }
+
+        #moviesdiv{
+            max-width:100%;
+
+        }
+        iframe
+        {
+             max-width: 100%;
+             -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+  
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+        }
+        #myModal{
+            position: fixed;
+            top: 35%;
+            
+        }
 
     </style>
 
 </head>
 
 <body>
-
+<div class="container" >
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <a class="navbar-brand" href="#">Trailer My Show</a>
-
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">TrailerMyShow</a>
+            <a class="navbar-brand" href="#myModal" data-toggle="modal" data-target="#myModal">About</a>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
+           </div>
         <!-- /.container -->
     </nav>
 
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+
+          <h4 class="modal-title">TrailerMyshow is about</h4>
+        </div>
+        <div class="modal-body">
+        <p>Finding all the latest movies around you at one place.Watch trailers of all the latest movies currently running in your  city. Enjoy!!!</p>
+      </div>
+        
+      </div>
+    </div>
+</div>
+
+
     <!-- Page Content -->
-    <div class="container" >
+    
 
     <!-- Page Heading -->
         <div class="row">
             <div class="col-md-8">
-                <h3 id="description"> Watch trailers of the latest movies released in your own city<h3>
-                <h2 id="watch-heading">Movies Currently running in Cinemas : </h2>
+                
+                <h2 id="watch-heading">Movies in Cinemas : </h2>
                 <h1><small>Trailers</small></h1>
             </div>
 
-            <div id="angular-div" ng-app="myApp" ng-controller="customersCtrl" class="col-md-2"> 
+            <div id="angular-div" ng-controller="customersCtrl" class="col-md-2"> 
 
-            <h4>City: </h4><select id="angular-select" ng-model="city" ng-options="option for option in listOfOptions" ng-change="fetch()" ng-init="fetchDefaultValue()">
+            <h4>City: </h4><select id="angular-select" ng-model="city" ng-options="option for option in listOfOptions" ng-change="fetch()">
             </select>
             </div>
             <div class="col-md-2" id="language-select">
@@ -96,249 +160,90 @@
         <!-- /.row -->
     </div>
     <!-- /.container -->
-	<div class="container" >
-    	<div  id="moviesdiv"></div>
+    <div class="container" >
+        <div  id="moviesdiv"></div>
     </div>
 
-     <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Trailer Duniya 2015</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer> 
-
-
-
-    <script type="text/javascript">
-
-
-        function addVideos(movlist)
-        {
-            $('#moviesdiv').text('');
-            
-            for(var i=0;i<movlist.length;i++)
-            {
-                var outerDiv=$("<div>").addClass("row");
-                var innerVideoDiv=$("<div>").addClass("col-md-7");
-                var videoAttrDiv=$("<div>").addClass("flex-video widescreen");
-                var videoFrame=$("<iframe>").attr("height","220").attr("width","400").attr("src","http://www.youtube.com/embed/"+movlist[i][1][0]);
-                var innerTxtDiv=$("<div>").addClass("col-md-5");
-                
-                var name = $("<h2>").text(movlist[i][0]).css("text-decoration","underline");
-
-                var table = $("<table>").attr("width","80%");
-
-                var rating;
-                if(movlist[i][1][1]=='0')
-                	rating =$("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("IMDB Rating:  ")),$("<td>").append($("<h4>").text("N/A")));
-                else
-                	rating = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("IMDB Rating:  ")),$("<td>").append($("<h4>").text(movlist[i][1][1])));
-             
-             	var duration;
-             	if(movlist[i][1][2]=='')
-					duration = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("Duration:  ")),$("<td>").append($("<h4>").text("N/A")));
-				else
-					duration = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("Duration:  ")),$("<td>").append($("<h4>").text(movlist[i][1][2])));
-
-				var genre;
-				if(movlist[i][1][3]=='')
-                	genre = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("Genre:  ")),$("<td>").append($("<h4>").text("N/A")));
-                else
-                	genre = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("Genre:  ")),$("<td>").append($("<h4>").text(movlist[i][1][3])));
-
-                var release_date;
-				if(movlist[i][1][5]=='')
-                	release_date = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("Release date:  ")),$("<td>").append($("<h4>").text("N/A")));
-                else
-                	release_date = $("<tr>").append($("<td>").attr("width","40%").append($("<h4>").text("Release date:  ")),$("<td>").append($("<h4>").text(movlist[i][1][5])));
-
-
-                var videoAll = innerVideoDiv.append(videoAttrDiv.append(videoFrame));
-                var textAll = innerTxtDiv.append(name,table.append(rating,duration,genre,release_date));
-
-                $('#moviesdiv').append(outerDiv.append(videoAll,textAll),"<hr>");
-            }
-
-
-        }
-
-    </script>
-
-
-    <script type="text/javascript">
-
-    var items;
-
-    function onlyUnique(value, index, self) { 
-        return self.indexOf(value) === index;
-    }
+     
+<script type="text/javascript">
     
-    function getData(d)
-    {
-        console.log("inside get data");
-        items = Object.keys(d).map(function(key) {
 
-            return [key, d[key]]; 
-        });
-        console.log(items[1][1]);
-        var hindiMovies=[];
-        var allLanguages=[];
-        for (var i=0;i<items.length;i++){
-            for(var j=0;j<items[i][1][4].length;j++)
-            {
-                console.log(items[i][1][4][j]);
-                allLanguages.push(items[i][1][4][j]);    
-            
-            
-                if(items[i][1][4][j]=="Hindi" || items[i][1][4][j]=="")
-                {
-                    hindiMovies.push(items[i]);
-                }
-            }
-        }
-        allLanguages.push("All");
 
-        var uniqueLanguages = allLanguages.filter( onlyUnique );
+</script>
 
-        addLanguages(uniqueLanguages);
 
-        // Sort the array based on the second element
-        hindiMovies.sort(function(first, second) {
-            return second[1][1] - first[1][1]; });
+<script type="text/javascript">
+    var defaultCity="";
+ var fillInPage = (function () {
+    var updateCityText = function (geoipResponse) {
+      console.log("caliing updateCityText ");
+    defaultCity=geoipResponse.city.names.en;
+        console.log("city "+defaultCity);
+        console.log("longitude "+geoipResponse.location.longitude);
+        console.log("latitude "+geoipResponse.location.latitude);
+
+
         
-        addVideos(hindiMovies);
+    };
+ 
+    var onSuccess = function (geoipResponse) {
+      console.log("caliing onSuccess of geoip2.city");
+        updateCityText(geoipResponse);
+    };
+ 
+    /* If we get an error we will */
+    var onError = function (error) {
+      console.log("Calling error of geoip2.city");
+        return;
+    };
+ 
+    return function () {
+      console.log("Calling geoip2.city");
+        geoip2.city( onSuccess, onError );
+    };
+}());
+ 
+ function getCityLocation(){
+fillInPage();
+//console.log(onSuccess);
+}
 
-    }
-    function addLanguages(uniqueLanguages){
-        var sel=$('#uniqueLang');
-        sel.text('');
+</script>
 
-        for(var i = 0; i < uniqueLanguages.length; i++) {
-            var opt = $('<option>');
-            opt.text(uniqueLanguages[i]);
-            opt.value = uniqueLanguages[i];
-            if(uniqueLanguages[i]=="Hindi")
-                opt.attr("selected","selected");
-            sel.append(opt);
-        }
-    }
-    $(function(){
-        $('#uniqueLang').on('change',function(){
-
-            var filteMovies=[];
-            var selectedLang=this.value;
-
-            if (selectedLang=="All")
-            {
-            	for (var i=0 ; i<items.length;i++){
-            		filteMovies.push(items[i]);
-            	}
-            }
-            else {
+        <script>
 
 
-            for (var i=0;i<items.length;i++){
-                for(var j=0;j<items[i][1][4].length;j++){
-                    if(items[i][1][4][j]==selectedLang){
-                        filteMovies.push(items[i]);
-                    }
-            }
 
-        }
-
-    }
-        $('#moviesdiv').text('');
-        filteMovies.sort(function(first, second) {
-            return second[1][1] - first[1][1]; });
-
-        addVideos(filteMovies);
-
-
-        });
-
+    $( document ).ready(function() {
+       getCityLocation();
     });
 
 
 
-    </script>
+        
 
-
-    <script type="text/javascript">
-        function getlocation(geolocation)
-        {   
-            console.log("inside getlocation");
-            var add_comp = geolocation['results'][0]["address_components"];
-            for(var i=0;i<add_comp.length;i++)
-            {
-                if(add_comp[i].types[0]=="locality")
-                	{	console.log(" found city "+ add_comp[i].long_name);
-                    return add_comp[i].long_name;
-                }
-            }
-            alert("Selecting Bengaluru as default City");
-            return 'Bengaluru';
-        }
-
-    </script>
-   
-
-        <script>
         var app = angular.module('myApp', []);
 
-        var defaultCity='';
+        var defaultCity='Pune';
         var path="Output/";
-
-        /*navigator.geolocation.getCurrentPosition(GetLocation);
-		function GetLocation(location) {
-    		alert(location.coords.latitude);
-    		alert(location.coords.longitude);
-    		alert(location.coords.accuracy);
-		}*/
-
-               
+        
         app.controller('customersCtrl',function($scope, $http) {
-            try {
-	var latitude=google.loader.ClientLocation.latitude;
-	var longitude=google.loader.ClientLocation.longitude;
-    
-}
-catch(err){
+            
+$( window ).load(function() {
+    console.log("inside window load");
+            console.log("default city "+defaultCity);
 
-    var latitude=12.962793;
-    var longitude=77.7116525;
-    alert("Setting Default city to Bengaluru");
-}
-	var url_latlong="https://maps.googleapis.com/maps/api/geocode/json?latlng="+latitude+","+longitude+"&key=AIzaSyAnDZW0tBPqfnDQ0JC7KeBoaEFhfzr9JlE";
-	console.log(url_latlong);
-
-		$http.get(url_latlong).success(function(data){
-                defaultCity=getlocation(data);
-                console.log(defaultCity);
-       
-
-
-        		/*try{
-        			console.log(" latitude "+google.loader.ClientLocation.latitude);
-        			console.log(" longitude "+google.loader.ClientLocation.longitude);
-                	defaultCity=google.loader.ClientLocation["address"]["city"];
-                }
-                catch(err){
-                	defaultCity="Bengaluru";
-                }*/
                 var cur_txt=$("#watch-heading").text();
                 $("#watch-heading").text(cur_txt+ defaultCity);
                 $scope.city = defaultCity;
                 $http.get(path+defaultCity+".json").success(function(response){getData(response);});
-            });
-            
+         
+        });
             $scope.listOfOptions = ['Agartala', 'Agra', 'Ahmedabad', 'Ajmer', 'Aligarh', 'Allahabad', 'Amritsar', 'Aurangabad', 'Bengaluru', 'Bhopal', 'Bilaspur', 'Chandigarh', 'Chennai', 'Coimbatore', 'Dehradun', 'Durgapur', 'Goa', 'Guwahati', 'Gwalior', 'Haridwar', 'Hyderabad', 'Indore', 'Jabalpur', 'Jaipur', 'Jamnagar', 'Jamshedpur', 'Jodhpur', 'Kanpur', 'Kolhapur', 'Kolkata', 'Kota', 'Lucknow', 'Ludhiana', 'Madurai', 'Mangalore', 'Meerut', 'Mumbai', 'Muzaffarnagar', 'Mysore', 'Nagpur', 'Nashik','NCR', 'Patiala', 'Patna', 'Pune', 'Raipur', 'Rajkot', 'Ranchi', 'Rohtak', 'Solapur', 'Surat', 'Udaipur', 'Ujjain', 'Vadodara'];
             
 
             $scope.fetch=function(){
-                if ($scope.city='NCR'){
+                if ($scope.city=='NCR'){
                     var city_name ="national-capital-region-ncr.json";
                 }
                 else{
@@ -347,7 +252,7 @@ catch(err){
             
             if($scope.city!=defaultCity)
             {
-                var cur_txt="Movies Currently running in Cinemas : ";
+                var cur_txt="Movies in Cinemas : ";
                 $("#watch-heading").text(cur_txt+$scope.city);
                 $http.get(path+city_name).success(function (response) {getData(response);});
                 defaultCity="";
@@ -355,8 +260,9 @@ catch(err){
             }
         }
 
+});
 
-    });
+
     </script>
 
     
