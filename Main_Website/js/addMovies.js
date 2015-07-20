@@ -7,7 +7,7 @@
                 var outerDiv=$("<div>").addClass("row");
                 var innerVideoDiv=$("<div>").addClass("col-md-7");
                 var videoAttrDiv=$("<div>").addClass("flex-video widescreen");
-                var videoFrame=$("<iframe>").attr("height","220").attr("width","400").attr("src","http://www.youtube.com/embed/"+movlist[i][1][0]);
+                var videoFrame=$("<iframe >").attr("height","220").attr("width","400").attr("allowfullscreen","true").attr("webkitallowfullscreen","true").attr("mozallowfullscreen","true").attr("src","http://www.youtube.com/embed/"+movlist[i][1][0]);
                 var innerTxtDiv=$("<div>").addClass("col-md-5");
                 
                 var name = $("<h2>").text(movlist[i][0]).css("text-decoration","underline");
