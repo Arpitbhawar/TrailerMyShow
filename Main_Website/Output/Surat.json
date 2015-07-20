@@ -1,124 +1,53 @@
 {
-    "Spy": [
-        "YrY3v1eDmQY", 
-        "7.6", 
-        "120 min", 
-        "Action|Comedy|Crime", 
-        [
-            "English"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Canvas": [
-        "Xi6ohZCwj2M", 
-        "6.7", 
-        "101 min", 
-        "Drama", 
-        [
-            "Gujarati"
-        ], 
-        "27 Feb, 2015"
-    ], 
-    "Jyothi Lakshmi": [
-        "1-Ra-pkbfEE", 
+    "Maari": [
+        "W3XFChOz-Z0", 
         "0", 
         "", 
         "", 
         [
+            "Tamil"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Inside Out": [
+        "WIDYqBMFzfg", 
+        "6.9", 
+        "82 min", 
+        "Horror|Thriller", 
+        [
+            "English"
+        ], 
+        "26 Jun, 2015"
+    ], 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "7.2", 
+        "163 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
+        [
+            "English"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.4", 
+        "159 min", 
+        "Action|Adventure|History", 
+        [
+            "Hindi", 
             "Telugu"
         ], 
-        "12 Jun, 2015"
-    ], 
-    "Entourage": [
-        "SGSE_XPF4_g", 
-        "7.5", 
-        "104 min", 
-        "Comedy", 
-        [
-            "English"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Haunted House 12D": [
-        "eDyh9YloMVk", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "22 Aug, 2014"
-    ], 
-    "Hamari Adhuri Kahani": [
-        "2fiT_TJlySk", 
-        "6.9", 
-        "129 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "12 Jun, 2015"
-    ], 
-    "ABCD 2": [
-        "IKUtAC-dwFM", 
-        "5.7", 
-        "105 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Tanu Weds Manu Returns": [
-        "wGGmyaurjAI", 
-        "8.3", 
-        "128 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "22 May, 2015"
-    ], 
-    "Bey Yaar": [
-        "aRyNGHbNsaY", 
-        "8.8", 
-        "65 min", 
-        "Drama|Romance", 
-        [
-            "Gujarati"
-        ], 
-        "29 Aug, 2014"
-    ], 
-    "Jurassic World": [
-        "RFinNxS5KN4", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Hindi", 
-            "English"
-        ], 
-        "11 Jun, 2015"
-    ], 
-    "Dil Dhadakne Do": [
-        "qfnJCv4_1Ts", 
-        "6.9", 
-        "172 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "5 Jun, 2015"
-    ], 
-    "San Andreas": [
-        "yftHosO0eUo", 
-        "7.1", 
-        "85 min", 
-        "Drama", 
-        [
-            "Hindi", 
-            "English"
-        ], 
-        "29 May, 2015"
+        "10 Jul, 2015"
     ]
 }

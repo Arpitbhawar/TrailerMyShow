@@ -1,6 +1,16 @@
 {
+    "Golden Calendar": [
+        "4-y8xhtrmbQ", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Hindi"
+        ], 
+        "12 Jun, 2015"
+    ], 
     "Sons Of Ram": [
-        "T9Dcd1kSZFI", 
+        "fNsDq5ykOck", 
         "7.1", 
         "103 min", 
         "Drama", 
@@ -9,15 +19,15 @@
         ], 
         "13 May, 2013"
     ], 
-    "Rescue and Forest Adventure": [
-        "-eQrE4DpkKI", 
-        "6.1", 
-        "45 min", 
-        "Documentary", 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "7.2", 
+        "163 min", 
+        "Drama", 
         [
-            "English"
+            "Hindi"
         ], 
-        "17 Oct, 2013"
+        "17 Jul, 2015"
     ], 
     "Kadambari": [
         "mLcUlgf5ZAg", 
@@ -29,78 +39,68 @@
         ], 
         "8 May, 2015"
     ], 
-    "Roller Coaster and House of Dead": [
-        "mVgbkKSoOYM", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "1 Aug, 2014"
-    ], 
-    "House of Dead and Aero Bike": [
-        "zSmOvYzSeaQ", 
-        "8.9", 
-        "44 min", 
-        "Drama|Mystery", 
-        [
-            "English"
-        ], 
-        "1 Aug, 2014"
-    ], 
-    "Dil Dhadakne Do": [
-        "qfnJCv4_1Ts", 
-        "6.9", 
-        "172 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "5 Jun, 2015"
-    ], 
-    "Terrific Dinosaur and Roller Coaster": [
-        "nD2s4qwqrGw", 
-        "7.0", 
-        "30 min", 
+    "Ride show and Haunted Show": [
+        "OPdbdjctx2I", 
+        "5.7", 
+        "93 min", 
         "Comedy", 
         [
             "English"
         ], 
-        "19 May, 2015"
+        "26 Jun, 2015"
     ], 
-    "Jamai 420": [
-        "WKlgT5XLFik", 
-        "0", 
-        "", 
-        "", 
+    "Ride Show and Horror Show": [
+        "iOrAy2Dzd68", 
+        "5.7", 
+        "93 min", 
+        "Comedy", 
+        [
+            "English"
+        ], 
+        "26 Jun, 2015"
+    ], 
+    "Ride Show and Kids Scary": [
+        "LgEnc2rkssM", 
+        "5.7", 
+        "93 min", 
+        "Comedy", 
+        [
+            "English"
+        ], 
+        "26 Jun, 2015"
+    ], 
+    "Manihara": [
+        "DEQgohWtkgo", 
+        "5.9", 
+        "12 min", 
+        "Short|Comedy|Drama", 
         [
             "Bengali"
         ], 
-        "22 May, 2015"
+        "10 Jul, 2015"
     ], 
-    "Terrific Dinosaur + King Kong Returns": [
-        "iJWlLk2HaDY", 
+    "Besh Korechi Prem Korechi": [
+        "G824cTErAFQ", 
+        "9.3", 
+        "142 min", 
+        "Crime|Drama", 
+        [
+            "Bengali"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Kids Ride and Adventure Show": [
+        "nRD4_KClpdc", 
         "7.0", 
-        "30 min", 
-        "Comedy", 
+        "91 min", 
+        "Drama", 
         [
             "English"
         ], 
-        "7 Apr, 2014"
-    ], 
-    "Rescue": [
-        "Jr6VsJk2rEE", 
-        "6.1", 
-        "45 min", 
-        "Documentary", 
-        [
-            "English"
-        ], 
-        "13 Oct, 2012"
+        "26 Jun, 2015"
     ], 
     "Ice Fighter+Forest Adventure-": [
-        "eDyh9YloMVk", 
+        "vucKZMARZAw", 
         "4.9", 
         "71 min", 
         "Drama|Music|Romance", 
@@ -109,145 +109,85 @@
         ], 
         "24 Aug, 2013"
     ], 
-    "Russian Hills And Forest Adventure": [
-        "hqvXi70HxXM", 
-        "7.5", 
-        "115 min", 
-        "Action|Adventure|Thriller", 
+    "Eka Ebong Eka": [
+        "mchsNJtDQvY", 
+        "7.2", 
+        "126 min", 
+        "Action|Drama|Family", 
+        [
+            "Bengali"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "Rembrandt": [
+        "8qGoAMf6NXo", 
+        "6.3", 
+        "103 min", 
+        "Drama|History", 
         [
             "English"
         ], 
-        "20 May, 2015"
+        "22 Jul, 2015"
     ], 
     "Bela Seshe": [
         "X0zUrtioA2g", 
         "7.7", 
         "90 min", 
-        "Action|Mystery|Thriller", 
+        "Thriller", 
         [
             "Bengali"
         ], 
         "1 May, 2015"
     ], 
-    "Hamari Adhuri Kahani": [
-        "2fiT_TJlySk", 
-        "6.9", 
-        "129 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "12 Jun, 2015"
-    ], 
-    "ABCD 2": [
-        "IKUtAC-dwFM", 
-        "5.7", 
-        "105 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Tanu Weds Manu Returns": [
-        "wGGmyaurjAI", 
-        "8.3", 
-        "128 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "22 May, 2015"
-    ], 
-    "Naxaal": [
-        "erZCJLZft8M", 
+    "Labour of Love": [
+        "PFObwB9TAwc", 
         "0", 
         "", 
         "", 
         [
             "Bengali"
         ], 
+        "26 Jun, 2015"
+    ], 
+    "Spy": [
+        "YrY3v1eDmQY", 
+        "7.4", 
+        "120 min", 
+        "Action|Comedy|Crime", 
+        [
+            "English"
+        ], 
         "19 Jun, 2015"
     ], 
-    "Roller Coaster & Forest Adventur": [
-        "U8MMRWtbmDY", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "15 Feb, 2013"
-    ], 
-    "Haunted House 7D": [
-        "5VoiD8Fr_SU", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "21 Aug, 2013"
-    ], 
-    "Forest Adventure & Roller Coaster": [
-        "U8MMRWtbmDY", 
-        "6.9", 
-        "90 min", 
+    "Jogajog": [
+        "3I2XuiQ8NPc", 
+        "8.1", 
+        "138 min", 
         "Drama", 
         [
-            "English"
-        ], 
-        "8 Oct, 2013"
-    ], 
-    "Prehistoric Adventure and Roller Coaster": [
-        "k_0paa4HwNg", 
-        "2.4", 
-        "85 min", 
-        "Action|Adventure|Sci-Fi", 
-        [
-            "English"
-        ], 
-        "16 Apr, 2013"
-    ], 
-    "Scorpion King and Haunted House": [
-        "hlNvdfv76WA", 
-        "7.2", 
-        "43 min", 
-        "Action|Drama", 
-        [
-            "English"
-        ], 
-        "30 Sep, 2014"
-    ], 
-    "Piku": [
-        "oeiKUlUUNQ8", 
-        "7.9", 
-        "123 min", 
-        "Comedy|Drama", 
-        [
-            "Hindi"
+            "Bengali"
         ], 
         "8 May, 2015"
     ], 
-    "House of Dead and Scorpion King": [
-        "hlNvdfv76WA", 
-        "8.9", 
-        "44 min", 
-        "Drama|Mystery", 
+    "Inside Out": [
+        "WIDYqBMFzfg", 
+        "6.9", 
+        "82 min", 
+        "Horror|Thriller", 
         [
             "English"
         ], 
-        "15 May, 2015"
+        "26 Jun, 2015"
     ], 
-    "Earthquake And Roller": [
-        "r9aLWpDhDeU", 
-        "5.8", 
-        "123 min", 
-        "Action|Drama|Thriller", 
+    "Horror Show": [
+        "Gw1aarm2DuU", 
+        "3.2", 
+        "91 min", 
+        "Horror", 
         [
             "English"
         ], 
-        "20 May, 2015"
+        "26 Jun, 2015"
     ], 
     "Jurassic World": [
         "RFinNxS5KN4", 
@@ -255,21 +195,30 @@
         "", 
         "", 
         [
-            "Bengali", 
             "Hindi", 
             "English"
         ], 
         "11 Jun, 2015"
     ], 
-    "Phantom House": [
-        "LsWBod-pdao", 
-        "5.8", 
+    "Ride Show and Scary Show": [
+        "OPdbdjctx2I", 
+        "5.7", 
         "93 min", 
-        "Action|Horror|Romance", 
+        "Comedy", 
         [
             "English"
         ], 
-        "19 May, 2015"
+        "26 Jun, 2015"
+    ], 
+    "Snow Ride and Horror Show": [
+        "PM8V3cHdSC4", 
+        "6.4", 
+        "120 min", 
+        "Comedy|Family|Fantasy", 
+        [
+            "English"
+        ], 
+        "26 Jun, 2015"
     ], 
     "Ice Fighter & Roller Coaster -": [
         "fzKY0ybobWY", 
@@ -281,55 +230,36 @@
         ], 
         "21 Nov, 2012"
     ], 
-    "Spy": [
-        "YrY3v1eDmQY", 
-        "7.6", 
-        "120 min", 
-        "Action|Comedy|Crime", 
+    "Adventure Show and Horror Show": [
+        "9YB1Envg2aw", 
+        "6.1", 
+        "135 min", 
+        "Drama|Romance|Comedy", 
         [
             "English"
         ], 
-        "19 Jun, 2015"
+        "26 Jun, 2015"
     ], 
-    "House of Dead and King Kong Returns": [
-        "SVaD8rouJn0", 
-        "8.9", 
-        "44 min", 
-        "Drama|Mystery", 
-        [
-            "English"
-        ], 
-        "29 Aug, 2014"
-    ], 
-    "Haunted Graves and Roller Coaster": [
-        "tBBdOCpRNvI", 
+    "Boudi.com": [
+        "pj9DFpJv-D0", 
         "0", 
         "", 
         "", 
         [
-            "English"
+            "Bengali"
         ], 
-        "10 Oct, 2013"
+        "5 May, 2015"
     ], 
-    "Invasion + Time Machine": [
-        "i7YGtxF1iGU", 
-        "7.2", 
-        "129 min", 
-        "Action|Sci-Fi", 
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.4", 
+        "159 min", 
+        "Action|Adventure|History", 
         [
-            "English"
+            "Hindi", 
+            "Telugu"
         ], 
-        "1 May, 2015"
-    ], 
-    "Terrific Dinosaur and Scorpion King": [
-        "fujeifhGzeY", 
-        "7.0", 
-        "30 min", 
-        "Comedy", 
-        [
-            "English"
-        ], 
-        "19 May, 2015"
+        "10 Jul, 2015"
     ], 
     "Terrific Dinosaur & Roller Coaster - Combo": [
         "rDB7lStL37I", 
@@ -341,64 +271,44 @@
         ], 
         "21 Nov, 2012"
     ], 
-    "San Andreas": [
-        "yftHosO0eUo", 
-        "7.1", 
-        "85 min", 
-        "Drama", 
-        [
-            "English"
-        ], 
-        "29 May, 2015"
-    ], 
-    "Path Finder Snow and Haunted Graves": [
-        "Vt_TnDqAYGc", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "26 Sep, 2014"
-    ], 
-    "Pre Historic Adventure + King Kong Returns": [
-        "DTWYQhTT388", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "7 Apr, 2014"
-    ], 
-    "Ice Age 4: Continental Drift": [
-        "hoHxzMTieTw", 
-        "4.9", 
-        "71 min", 
-        "Drama|Music|Romance", 
-        [
-            "English"
-        ], 
-        "27 Jul, 2012"
-    ], 
-    "Terrific Dinosaur and Forest Adventure": [
-        "gjocP-EwRwE", 
-        "7.0", 
-        "30 min", 
+    "Ride Show and Adventure Show": [
+        "ODfotWD7wz8", 
+        "5.7", 
+        "93 min", 
         "Comedy", 
         [
             "English"
         ], 
-        "19 May, 2015"
+        "26 Jun, 2015"
     ], 
-    "Desert Ride & Forest Adventure": [
-        "sOszirJluaQ", 
-        "0", 
-        "", 
-        "", 
+    "Sesh Anka": [
+        "J93xkVrhMBk", 
+        "7.1", 
+        "130 min", 
+        "Mystery", 
+        [
+            "Bengali"
+        ], 
+        "3 Jul, 2015"
+    ], 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
         [
             "English"
         ], 
-        "21 Aug, 2013"
+        "10 Jul, 2015"
+    ], 
+    "Forest Adventure & Roller Coaster": [
+        "shZ8bYYAxqQ", 
+        "6.9", 
+        "90 min", 
+        "Drama", 
+        [
+            "English"
+        ], 
+        "8 Oct, 2013"
     ]
 }

@@ -1,93 +1,73 @@
 {
-    "Spy": [
-        "YrY3v1eDmQY", 
-        "7.6", 
-        "120 min", 
-        "Action|Comedy|Crime", 
-        [
-            "English"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Time Bara Vait": [
-        "IGxmv0icd50", 
-        "6.7", 
-        "109 min", 
-        "Action|Sci-Fi|Thriller", 
-        [
-            "Marathi"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Premam": [
-        "1DF1nOfUIaU", 
-        "8.6", 
-        "156 min", 
-        "Romance", 
-        [
-            "Malayalam"
-        ], 
-        "29 May, 2015"
-    ], 
-    "Hamari Adhuri Kahani": [
-        "2fiT_TJlySk", 
-        "6.9", 
-        "129 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "12 Jun, 2015"
-    ], 
-    "ABCD 2": [
-        "IKUtAC-dwFM", 
-        "5.7", 
-        "105 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Tanu Weds Manu Returns": [
-        "wGGmyaurjAI", 
-        "8.3", 
-        "128 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "22 May, 2015"
-    ], 
-    "Nagrik": [
-        "KrHpvGmXwO0", 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
         "7.2", 
-        "122 min", 
-        "Drama|Mystery", 
+        "163 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.4", 
+        "159 min", 
+        "Action|Adventure|History", 
+        [
+            "Hindi", 
+            "Telugu"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "Bioscope": [
+        "Nlw58ZW-ViI", 
+        "7.0", 
+        "94 min", 
+        "Documentary|Drama", 
         [
             "Marathi"
         ], 
-        "12 Jun, 2015"
+        "17 Jul, 2015"
     ], 
-    "Jurassic World": [
-        "RFinNxS5KN4", 
+    "Ramabai Bhimrao Ambedkar": [
+        "c06pT-YrUBQ", 
         "0", 
         "", 
         "", 
         [
-            "Hindi", 
+            "Marathi"
+        ], 
+        "7 Jan, 2011"
+    ], 
+    "Killa": [
+        "5ORlbsJLJuQ", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Marathi"
+        ], 
+        "26 Jun, 2015"
+    ], 
+    "Rembrandt": [
+        "8qGoAMf6NXo", 
+        "6.3", 
+        "103 min", 
+        "Drama|History", 
+        [
             "English"
         ], 
-        "11 Jun, 2015"
+        "22 Jul, 2015"
     ], 
-    "Dil Dhadakne Do": [
-        "qfnJCv4_1Ts", 
-        "6.9", 
-        "172 min", 
-        "Comedy|Drama|Romance", 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
         [
-            "Hindi"
+            "English"
         ], 
-        "5 Jun, 2015"
+        "10 Jul, 2015"
     ]
 }

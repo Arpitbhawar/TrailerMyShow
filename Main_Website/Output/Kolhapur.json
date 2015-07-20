@@ -1,62 +1,43 @@
 {
-    "Hamari Adhuri Kahani": [
-        "2fiT_TJlySk", 
-        "6.9", 
-        "129 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "12 Jun, 2015"
-    ], 
-    "ABCD 2": [
-        "IKUtAC-dwFM", 
-        "5.7", 
-        "105 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Tanu Weds Manu Returns": [
-        "wGGmyaurjAI", 
-        "8.3", 
-        "128 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "22 May, 2015"
-    ], 
-    "Jurassic World": [
-        "RFinNxS5KN4", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Hindi"
-        ], 
-        "11 Jun, 2015"
-    ], 
-    "Dil Dhadakne Do": [
-        "qfnJCv4_1Ts", 
-        "6.9", 
-        "172 min", 
-        "Comedy|Drama|Romance", 
-        [
-            "Hindi"
-        ], 
-        "5 Jun, 2015"
-    ], 
-    "Goa 350 KM": [
-        "lNJKTw50xwE", 
+    "Killa": [
+        "5ORlbsJLJuQ", 
         "0", 
         "", 
         "", 
         [
             "Marathi"
         ], 
-        "22 May, 2015"
+        "26 Jun, 2015"
+    ], 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "7.2", 
+        "163 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Bioscope": [
+        "Nlw58ZW-ViI", 
+        "7.0", 
+        "94 min", 
+        "Documentary|Drama", 
+        [
+            "Marathi"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.4", 
+        "159 min", 
+        "Action|Adventure|History", 
+        [
+            "Hindi", 
+            "Telugu"
+        ], 
+        "10 Jul, 2015"
     ]
 }
