@@ -41,9 +41,9 @@
     ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "7.2", 
+        "8.4", 
         "163 min", 
-        "Drama", 
+        "Comedy|Drama", 
         [
             "Hindi"
         ], 
@@ -51,7 +51,7 @@
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
-        "9.4", 
+        "9.3", 
         "159 min", 
         "Action|Adventure|History", 
         [
@@ -60,15 +60,15 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Vala": [
-        "1erj7GvA5oY", 
-        "4.9", 
-        "116 min", 
-        "Drama", 
+    "Inside Out": [
+        "WIDYqBMFzfg", 
+        "6.9", 
+        "82 min", 
+        "Horror|Thriller", 
         [
-            "Telugu"
+            "English"
         ], 
-        "17 Jul, 2015"
+        "26 Jun, 2015"
     ], 
     "Terminator Genisys": [
         "jNU_jrPxs-0", 
@@ -84,21 +84,41 @@
         "i6TSrhiuSJA", 
         "8.5", 
         "156 min", 
-        "Romance", 
+        "Comedy|Drama|Romance", 
         [
             "Malayalam"
         ], 
         "29 May, 2015"
     ], 
-    "Seenugadi Love Story": [
-        "15lbQIq5A0k", 
-        "4.6", 
-        "156 min", 
-        "Comedy|Drama|Romance", 
+    "James Bond": [
+        "LOWc8GefAV8", 
+        "8.3", 
+        "60 min", 
+        "Drama", 
         [
             "Telugu"
         ], 
-        "3 Jul, 2015"
+        "24 Jul, 2015"
+    ], 
+    "Krishnamma Kalipindi Iddarini": [
+        "Xy3W6vneKec", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Telugu"
+        ], 
+        "19 Jun, 2015"
+    ], 
+    "Tiger": [
+        "YW8B7z7cqtM", 
+        "5.3", 
+        "132 min", 
+        "Action|Romance|Thriller", 
+        [
+            "Telugu"
+        ], 
+        "26 Jun, 2015"
     ], 
     "Kerintha": [
         "PDtLlV5ADbk", 
@@ -121,7 +141,7 @@
         "8 Oct, 2013"
     ], 
     "Acha Din": [
-        "EZyItZ7GXLI", 
+        "ERweLc0JhX8", 
         "7.8", 
         "108 min", 
         "Drama|Sci-Fi", 
@@ -153,22 +173,32 @@
     ], 
     "Rembrandt": [
         "8qGoAMf6NXo", 
-        "6.3", 
-        "103 min", 
-        "Drama|History", 
+        "7.1", 
+        "85 min", 
+        "Biography|Drama", 
         [
             "English"
         ], 
         "22 Jul, 2015"
     ], 
-    "Inside Out": [
-        "WIDYqBMFzfg", 
-        "6.9", 
-        "82 min", 
-        "Horror|Thriller", 
+    "Vala": [
+        "1erj7GvA5oY", 
+        "4.9", 
+        "116 min", 
+        "Drama", 
+        [
+            "Telugu"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "8.0", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
         [
             "English"
         ], 
-        "26 Jun, 2015"
+        "24 Jul, 2015"
     ]
 }

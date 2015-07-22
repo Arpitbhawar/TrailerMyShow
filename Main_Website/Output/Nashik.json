@@ -1,21 +1,31 @@
 {
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.3", 
+        "159 min", 
+        "Action|Adventure|History", 
+        [
+            "Hindi"
+        ], 
+        "10 Jul, 2015"
+    ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "7.2", 
+        "8.4", 
         "163 min", 
-        "Drama", 
+        "Comedy|Drama", 
         [
             "Hindi"
         ], 
         "17 Jul, 2015"
     ], 
-    "Baahubali - The Beginning": [
-        "3NQRhE772b0", 
-        "9.4", 
-        "159 min", 
-        "Action|Adventure|History", 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
         [
-            "Hindi"
+            "English"
         ], 
         "10 Jul, 2015"
     ], 
@@ -28,35 +38,5 @@
             "Marathi"
         ], 
         "17 Jul, 2015"
-    ], 
-    "Killa": [
-        "5ORlbsJLJuQ", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Marathi"
-        ], 
-        "26 Jun, 2015"
-    ], 
-    "Jurassic World": [
-        "RFinNxS5KN4", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Hindi"
-        ], 
-        "11 Jun, 2015"
-    ], 
-    "Minions": [
-        "eisKxhjBnZ0", 
-        "6.8", 
-        "91 min", 
-        "Animation|Comedy|Family", 
-        [
-            "English"
-        ], 
-        "10 Jul, 2015"
     ]
 }

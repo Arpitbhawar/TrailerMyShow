@@ -1,14 +1,4 @@
 {
-    "Maari": [
-        "W3XFChOz-Z0", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Tamil"
-        ], 
-        "17 Jul, 2015"
-    ], 
     "Inside Out": [
         "WIDYqBMFzfg", 
         "6.9", 
@@ -19,15 +9,25 @@
         ], 
         "26 Jun, 2015"
     ], 
-    "Bajrangi Bhaijaan": [
-        "vyX4toD395U", 
-        "7.2", 
-        "163 min", 
-        "Drama", 
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.3", 
+        "159 min", 
+        "Action|Adventure|History", 
         [
             "Hindi"
         ], 
-        "17 Jul, 2015"
+        "10 Jul, 2015"
+    ], 
+    "Nirahua Rickshawala 2": [
+        "SRIuQz151yA", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Bhojpuri"
+        ], 
+        "22 May, 2015"
     ], 
     "Minions": [
         "eisKxhjBnZ0", 
@@ -39,15 +39,14 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Baahubali - The Beginning": [
-        "3NQRhE772b0", 
-        "9.4", 
-        "159 min", 
-        "Action|Adventure|History", 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "8.4", 
+        "163 min", 
+        "Comedy|Drama", 
         [
-            "Hindi", 
-            "Telugu"
+            "Hindi"
         ], 
-        "10 Jul, 2015"
+        "17 Jul, 2015"
     ]
 }

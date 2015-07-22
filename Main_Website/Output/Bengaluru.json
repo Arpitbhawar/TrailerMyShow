@@ -1,9 +1,9 @@
 {
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "7.2", 
+        "8.4", 
         "163 min", 
-        "Drama", 
+        "Comedy|Drama", 
         [
             "Hindi"
         ], 
@@ -38,6 +38,16 @@
             "Kannada"
         ], 
         "25 Dec, 2014"
+    ], 
+    "James Bond": [
+        "LOWc8GefAV8", 
+        "8.3", 
+        "60 min", 
+        "Drama", 
+        [
+            "Telugu"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Ganapa": [
         "Cbql8vYKGyI", 
@@ -81,9 +91,9 @@
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "0", 
-        "", 
-        "", 
+        "7.0", 
+        "138 min", 
+        "Action", 
         [
             "Tamil"
         ], 
@@ -139,6 +149,16 @@
         ], 
         "3 Jul, 2015"
     ], 
+    "Bullet Basya": [
+        "4tYhZARq4K8", 
+        "5.4", 
+        "99 min", 
+        "Action|Drama", 
+        [
+            "Kannada"
+        ], 
+        "19 Jun, 2015"
+    ], 
     "Rangi Taranga": [
         "inBBiSDnEy4", 
         "8.4", 
@@ -155,16 +175,15 @@
         "", 
         "", 
         [
-            "Hindi", 
             "English"
         ], 
         "11 Jun, 2015"
     ], 
     "Rembrandt": [
         "8qGoAMf6NXo", 
-        "6.3", 
-        "103 min", 
-        "Drama|History", 
+        "7.1", 
+        "85 min", 
+        "Biography|Drama", 
         [
             "English"
         ], 
@@ -182,7 +201,7 @@
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
-        "9.4", 
+        "9.3", 
         "159 min", 
         "Action|Adventure|History", 
         [
@@ -206,7 +225,7 @@
         "i6TSrhiuSJA", 
         "8.5", 
         "156 min", 
-        "Romance", 
+        "Comedy|Drama|Romance", 
         [
             "Malayalam"
         ], 
@@ -223,7 +242,7 @@
         "14 Jul, 2015"
     ], 
     "Acha Din": [
-        "EZyItZ7GXLI", 
+        "ERweLc0JhX8", 
         "7.8", 
         "108 min", 
         "Drama|Sci-Fi", 

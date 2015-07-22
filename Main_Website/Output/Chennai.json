@@ -1,9 +1,9 @@
 {
     "Kaaka Muttai": [
         "bm6RCZgptkU", 
-        "6.4", 
-        "138 min", 
-        "Adventure|Comedy|Drama", 
+        "0", 
+        "", 
+        "", 
         [
             "Tamil"
         ], 
@@ -11,17 +11,27 @@
     ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "7.2", 
+        "8.4", 
         "163 min", 
-        "Drama", 
+        "Comedy|Drama", 
         [
             "Hindi"
         ], 
         "17 Jul, 2015"
     ], 
+    "Naalu Policeum Nalla Irundha Oorum": [
+        "4Ty3ndY-s7A", 
+        "6.5", 
+        "105 min", 
+        "Drama", 
+        [
+            "Tamil"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
-        "9.4", 
+        "9.3", 
         "159 min", 
         "Action|Adventure|History", 
         [
@@ -64,7 +74,7 @@
         "i6TSrhiuSJA", 
         "8.5", 
         "156 min", 
-        "Romance", 
+        "Comedy|Drama|Romance", 
         [
             "Malayalam"
         ], 
@@ -72,26 +82,16 @@
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "0", 
-        "", 
-        "", 
+        "7.0", 
+        "138 min", 
+        "Action", 
         [
             "Tamil"
         ], 
         "17 Jul, 2015"
     ], 
-    "Insidious: Chapter 3": [
-        "3HxEXnVSr1w", 
-        "6.8", 
-        "103 min", 
-        "Drama|Horror|Mystery", 
-        [
-            "English"
-        ], 
-        "25 Jun, 2015"
-    ], 
     "Acha Din": [
-        "EZyItZ7GXLI", 
+        "ERweLc0JhX8", 
         "7.8", 
         "108 min", 
         "Drama|Sci-Fi", 
@@ -139,5 +139,25 @@
             "Tamil"
         ], 
         "26 Jun, 2015"
+    ], 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
+        [
+            "English"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "8.0", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

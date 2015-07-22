@@ -1,9 +1,9 @@
 {
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "7.2", 
+        "8.4", 
         "163 min", 
-        "Drama", 
+        "Comedy|Drama", 
         [
             "Hindi"
         ], 
@@ -51,9 +51,9 @@
     ], 
     "Ant-Man": [
         "QfOZWGLT1JM", 
-        "8.1", 
+        "8.0", 
         "117 min", 
-        "Action|Sci-Fi", 
+        "Action|Adventure|Sci-Fi", 
         [
             "English"
         ], 
@@ -81,9 +81,9 @@
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "0", 
-        "", 
-        "", 
+        "7.0", 
+        "138 min", 
+        "Action", 
         [
             "Tamil"
         ], 
@@ -179,6 +179,16 @@
         ], 
         "26 Jun, 2015"
     ], 
+    "Shutter": [
+        "kcgtuOVCIb0", 
+        "5.2", 
+        "85 min", 
+        "Horror|Mystery|Thriller", 
+        [
+            "Marathi"
+        ], 
+        "3 Jul, 2015"
+    ], 
     "Jurassic World": [
         "RFinNxS5KN4", 
         "0", 
@@ -192,9 +202,9 @@
     ], 
     "Rembrandt": [
         "8qGoAMf6NXo", 
-        "6.3", 
-        "103 min", 
-        "Drama|History", 
+        "7.1", 
+        "85 min", 
+        "Biography|Drama", 
         [
             "English"
         ], 
@@ -202,7 +212,7 @@
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
-        "9.4", 
+        "9.3", 
         "159 min", 
         "Action|Adventure|History", 
         [
@@ -222,7 +232,7 @@
         "10 Jul, 2015"
     ], 
     "Acha Din": [
-        "EZyItZ7GXLI", 
+        "ERweLc0JhX8", 
         "7.8", 
         "108 min", 
         "Drama|Sci-Fi", 
@@ -240,6 +250,16 @@
             "English"
         ], 
         "26 Dec, 2014"
+    ], 
+    "The Elephant Man": [
+        "ZvJuJKOmZAY", 
+        "5.5", 
+        "13 min", 
+        "Short|Drama", 
+        [
+            "English"
+        ], 
+        "10 Oct, 1980"
     ], 
     "The House of Dead Horror": [
         "k8oG3qh7q-E", 
