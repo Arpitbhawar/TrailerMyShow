@@ -1,13 +1,13 @@
 {
-    "Inside Out": [
-        "WIDYqBMFzfg", 
-        "6.9", 
-        "82 min", 
-        "Horror|Thriller", 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "8.5", 
+        "163 min", 
+        "Comedy|Drama", 
         [
-            "English"
+            "Hindi"
         ], 
-        "26 Jun, 2015"
+        "17 Jul, 2015"
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
@@ -19,15 +19,25 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Nirahua Rickshawala 2": [
-        "SRIuQz151yA", 
-        "0", 
-        "", 
-        "", 
+    "Inside Out": [
+        "WIDYqBMFzfg", 
+        "6.9", 
+        "82 min", 
+        "Horror|Thriller", 
         [
-            "Bhojpuri"
+            "English"
         ], 
-        "22 May, 2015"
+        "26 Jun, 2015"
+    ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Minions": [
         "eisKxhjBnZ0", 
@@ -39,14 +49,15 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Bajrangi Bhaijaan": [
-        "vyX4toD395U", 
-        "8.4", 
-        "163 min", 
-        "Comedy|Drama", 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
         [
-            "Hindi"
+            "Hindi", 
+            "English"
         ], 
-        "17 Jul, 2015"
+        "24 Jul, 2015"
     ]
 }

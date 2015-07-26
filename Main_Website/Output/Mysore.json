@@ -1,7 +1,7 @@
 {
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
@@ -19,15 +19,25 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Maari": [
-        "W3XFChOz-Z0", 
-        "7.0", 
-        "138 min", 
-        "Action", 
+    "Bullet Basya": [
+        "4tYhZARq4K8", 
+        "5.4", 
+        "99 min", 
+        "Action|Drama", 
         [
-            "Tamil"
+            "Kannada"
         ], 
-        "17 Jul, 2015"
+        "24 Jul, 2015"
+    ], 
+    "James Bond": [
+        "7GqClqvlObY", 
+        "8.3", 
+        "60 min", 
+        "Drama", 
+        [
+            "Telugu"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Rangi Taranga": [
         "inBBiSDnEy4", 
@@ -49,15 +59,15 @@
         ], 
         "12 Jun, 2015"
     ], 
-    "Jurassic World": [
-        "RFinNxS5KN4", 
-        "0", 
-        "", 
-        "", 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
         [
-            "English"
+            "Hindi"
         ], 
-        "11 Jun, 2015"
+        "24 Jul, 2015"
     ], 
     "Minions": [
         "eisKxhjBnZ0", 
@@ -68,5 +78,15 @@
             "English"
         ], 
         "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

@@ -1,4 +1,14 @@
 {
+    "Romeo Juliet": [
+        "oYnJq-AcKJE", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Tamil"
+        ], 
+        "12 Jun, 2015"
+    ], 
     "Kaaka Muttai": [
         "bm6RCZgptkU", 
         "0", 
@@ -11,7 +21,7 @@
     ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
@@ -40,15 +50,15 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Papanasam": [
-        "oWow766xmy4", 
-        "8.9", 
-        "179 min", 
-        "Drama|Thriller", 
+    "Premam": [
+        "i6TSrhiuSJA", 
+        "8.5", 
+        "156 min", 
+        "Comedy|Drama|Romance", 
         [
-            "Tamil"
+            "Malayalam"
         ], 
-        "3 Jul, 2015"
+        "29 May, 2015"
     ], 
     "Inside Out": [
         "WIDYqBMFzfg", 
@@ -70,19 +80,19 @@
         ], 
         "3 Jul, 2015"
     ], 
-    "Premam": [
-        "i6TSrhiuSJA", 
-        "8.5", 
-        "156 min", 
-        "Comedy|Drama|Romance", 
+    "KL 10 Patthu": [
+        "PKHmB-ehdHU", 
+        "5.6", 
+        "13 min", 
+        "Short|Drama|Sci-Fi", 
         [
             "Malayalam"
         ], 
-        "29 May, 2015"
+        "17 Jul, 2015"
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "7.0", 
+        "6.5", 
         "138 min", 
         "Action", 
         [
@@ -90,25 +100,65 @@
         ], 
         "17 Jul, 2015"
     ], 
-    "Acha Din": [
-        "ERweLc0JhX8", 
-        "7.8", 
-        "108 min", 
-        "Drama|Sci-Fi", 
+    "James Bond": [
+        "7GqClqvlObY", 
+        "8.3", 
+        "60 min", 
+        "Drama", 
+        [
+            "Telugu"
+        ], 
+        "24 Jul, 2015"
+    ], 
+    "Insidious: Chapter 3": [
+        "3HxEXnVSr1w", 
+        "6.8", 
+        "103 min", 
+        "Drama|Horror|Mystery", 
+        [
+            "English"
+        ], 
+        "25 Jun, 2015"
+    ], 
+    "Love 24 X 7": [
+        "7oNtU3ioam4", 
+        "6.5", 
+        "130 min", 
+        "Drama|Romance", 
         [
             "Malayalam"
         ], 
         "17 Jul, 2015"
     ], 
-    "Romeo Juliet": [
-        "oYnJq-AcKJE", 
+    "Guru Sukran": [
+        "hdbNztWLa4I", 
+        "5.4", 
+        "94 min", 
+        "Comedy|Fantasy|Music", 
+        [
+            "Tamil"
+        ], 
+        "24 Jul, 2015"
+    ], 
+    "AaviKumar": [
+        "go0iRwSW7EE", 
         "0", 
         "", 
         "", 
         [
             "Tamil"
         ], 
-        "12 Jun, 2015"
+        "24 Jul, 2015"
+    ], 
+    "Papanasam": [
+        "oWow766xmy4", 
+        "8.9", 
+        "179 min", 
+        "Drama|Thriller", 
+        [
+            "Tamil"
+        ], 
+        "3 Jul, 2015"
     ], 
     "Jurassic World": [
         "RFinNxS5KN4", 
@@ -120,16 +170,6 @@
         ], 
         "11 Jun, 2015"
     ], 
-    "Madhura Naranga": [
-        "cMb7SKbknhU", 
-        "7.5", 
-        "63 min", 
-        "Drama|Fantasy|Romance", 
-        [
-            "Malayalam"
-        ], 
-        "17 Jul, 2015"
-    ], 
     "Indru Netru Naalai": [
         "6YnVOsmfBQU", 
         "8.4", 
@@ -139,6 +179,16 @@
             "Tamil"
         ], 
         "26 Jun, 2015"
+    ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Minions": [
         "eisKxhjBnZ0", 
@@ -152,7 +202,7 @@
     ], 
     "Ant-Man": [
         "QfOZWGLT1JM", 
-        "8.0", 
+        "7.9", 
         "117 min", 
         "Action|Adventure|Sci-Fi", 
         [

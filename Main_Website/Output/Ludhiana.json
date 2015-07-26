@@ -1,13 +1,13 @@
 {
-    "Hero Naam Yaad Rakhi": [
-        "RKTEBaJrfLE", 
-        "7.9", 
-        "99 min", 
-        "Action|Adventure|History", 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "8.5", 
+        "163 min", 
+        "Comedy|Drama", 
         [
-            "Punjabi"
+            "Hindi"
         ], 
-        "10 Jul, 2015"
+        "17 Jul, 2015"
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
@@ -16,26 +16,6 @@
         "Action|Adventure|History", 
         [
             "Hindi"
-        ], 
-        "10 Jul, 2015"
-    ], 
-    "Bajrangi Bhaijaan": [
-        "vyX4toD395U", 
-        "8.4", 
-        "163 min", 
-        "Comedy|Drama", 
-        [
-            "Hindi"
-        ], 
-        "17 Jul, 2015"
-    ], 
-    "Minions": [
-        "eisKxhjBnZ0", 
-        "6.8", 
-        "91 min", 
-        "Animation|Comedy|Family", 
-        [
-            "English"
         ], 
         "10 Jul, 2015"
     ], 
@@ -48,5 +28,46 @@
             "Punjabi"
         ], 
         "26 Jun, 2015"
+    ], 
+    "Lovely Te Lovely": [
+        "NmvqUfZT_fo", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Punjabi"
+        ], 
+        "24 Jul, 2015"
+    ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
+    ], 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
+        [
+            "English"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "Hindi", 
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

@@ -1,7 +1,17 @@
 {
+    "Jilla": [
+        "VyectFJCP_s", 
+        "6.2", 
+        "185 min", 
+        "Action|Drama|Thriller", 
+        [
+            "Telugu"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
@@ -9,15 +19,25 @@
         ], 
         "17 Jul, 2015"
     ], 
-    "Krishna Leela": [
-        "Eq3CbN-f2bY", 
-        "0", 
-        "", 
-        "", 
+    "Love 24 X 7": [
+        "7oNtU3ioam4", 
+        "6.5", 
+        "130 min", 
+        "Drama|Romance", 
         [
-            "Kannada"
+            "Malayalam"
         ], 
-        "20 Mar, 2015"
+        "17 Jul, 2015"
+    ], 
+    "KL 10 Patthu": [
+        "PKHmB-ehdHU", 
+        "5.6", 
+        "13 min", 
+        "Short|Drama|Sci-Fi", 
+        [
+            "Malayalam"
+        ], 
+        "17 Jul, 2015"
     ], 
     "Insidious: Chapter 3": [
         "3HxEXnVSr1w", 
@@ -29,18 +49,8 @@
         ], 
         "25 Jun, 2015"
     ], 
-    "Mr. and Mrs. Ramachari": [
-        "rQvEAcjSWq0", 
-        "9.3", 
-        "60 min", 
-        "Crime|Drama", 
-        [
-            "Kannada"
-        ], 
-        "25 Dec, 2014"
-    ], 
     "James Bond": [
-        "LOWc8GefAV8", 
+        "7GqClqvlObY", 
         "8.3", 
         "60 min", 
         "Drama", 
@@ -69,8 +79,18 @@
         ], 
         "12 Jun, 2015"
     ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Adventure of Toy Land & Terrific Dinosaurs": [
-        "yTsIed-R-3I", 
+        "1HFv47QHWJU", 
         "6.1", 
         "135 min", 
         "Drama|Romance|Comedy", 
@@ -78,6 +98,16 @@
             "English"
         ], 
         "14 Jul, 2015"
+    ], 
+    "Mr. Holmes": [
+        "qng3t9RZk6Q", 
+        "9.2", 
+        "60 min", 
+        "Crime|Drama", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Roller Coaster and Jungle Adventure": [
         "o9d1P1iA0is", 
@@ -91,7 +121,7 @@
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "7.0", 
+        "6.5", 
         "138 min", 
         "Action", 
         [
@@ -139,16 +169,6 @@
         ], 
         "26 Jun, 2015"
     ], 
-    "Terminator Genisys": [
-        "jNU_jrPxs-0", 
-        "8.1", 
-        "107 min", 
-        "Action|Sci-Fi", 
-        [
-            "English"
-        ], 
-        "3 Jul, 2015"
-    ], 
     "Bullet Basya": [
         "4tYhZARq4K8", 
         "5.4", 
@@ -157,7 +177,7 @@
         [
             "Kannada"
         ], 
-        "19 Jun, 2015"
+        "24 Jul, 2015"
     ], 
     "Rangi Taranga": [
         "inBBiSDnEy4", 
@@ -189,15 +209,15 @@
         ], 
         "22 Jul, 2015"
     ], 
-    "Goolihatti": [
-        "DTUBOhigVEc", 
-        "0", 
-        "", 
-        "", 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
         [
-            "Kannada"
+            "Hindi"
         ], 
-        "26 Jun, 2015"
+        "24 Jul, 2015"
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
@@ -241,15 +261,15 @@
         ], 
         "14 Jul, 2015"
     ], 
-    "Acha Din": [
-        "ERweLc0JhX8", 
-        "7.8", 
-        "108 min", 
-        "Drama|Sci-Fi", 
+    "Sesh Anka": [
+        "J93xkVrhMBk", 
+        "8.5", 
+        "165 min", 
+        "Action|Thriller", 
         [
-            "Malayalam"
+            "Bengali"
         ], 
-        "17 Jul, 2015"
+        "3 Jul, 2015"
     ], 
     "Papanasam": [
         "oWow766xmy4", 
@@ -270,15 +290,5 @@
             "English"
         ], 
         "14 Jul, 2015"
-    ], 
-    "Preetiyinda": [
-        "7WIgHhSUPGQ", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Kannada"
-        ], 
-        "17 Jul, 2015"
     ]
 }

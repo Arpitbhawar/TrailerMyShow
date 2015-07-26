@@ -1,13 +1,13 @@
 {
-    "Sos Planet 12D": [
-        "S5KBbxiSgnI", 
-        "6.3", 
-        "90 min", 
-        "Comedy", 
+    "Aisa Yeh Jahaan": [
+        "6tC7wgEAna0", 
+        "7.3", 
+        "43 min", 
+        "Comedy|Sport", 
         [
-            "English"
+            "Hindi"
         ], 
-        "22 Aug, 2014"
+        "24 Jul, 2015"
     ], 
     "Jett and Jinn 12D": [
         "wHx6L9QqgAM", 
@@ -21,23 +21,13 @@
     ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
             "Hindi"
         ], 
         "17 Jul, 2015"
-    ], 
-    "Premji Rise Of A Warrior": [
-        "jY1TdvLqVXg", 
-        "1 user", 
-        "150 min", 
-        "Drama", 
-        [
-            "Gujarati"
-        ], 
-        "10 Jul, 2015"
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
@@ -59,23 +49,13 @@
         ], 
         "26 Jun, 2015"
     ], 
-    "Terminator Genisys": [
-        "jNU_jrPxs-0", 
-        "8.1", 
-        "107 min", 
-        "Action|Sci-Fi", 
+    "KL 10 Patthu": [
+        "PKHmB-ehdHU", 
+        "5.6", 
+        "13 min", 
+        "Short|Drama|Sci-Fi", 
         [
-            "Hindi"
-        ], 
-        "3 Jul, 2015"
-    ], 
-    "Maari": [
-        "W3XFChOz-Z0", 
-        "7.0", 
-        "138 min", 
-        "Action", 
-        [
-            "Tamil"
+            "Malayalam"
         ], 
         "17 Jul, 2015"
     ], 
@@ -84,16 +64,6 @@
         "4.7", 
         "102 min", 
         "Horror|Thriller", 
-        [
-            "English"
-        ], 
-        "22 Aug, 2014"
-    ], 
-    "Pirate Story 12D": [
-        "lB5W8ZxFlUk", 
-        "0", 
-        "", 
-        "", 
         [
             "English"
         ], 
@@ -109,6 +79,26 @@
         ], 
         "22 Aug, 2014"
     ], 
+    "Sos Planet 12D": [
+        "S5KBbxiSgnI", 
+        "6.3", 
+        "90 min", 
+        "Comedy", 
+        [
+            "English"
+        ], 
+        "22 Aug, 2014"
+    ], 
+    "Pirate Story 12D": [
+        "lB5W8ZxFlUk", 
+        "0", 
+        "", 
+        "", 
+        [
+            "English"
+        ], 
+        "22 Aug, 2014"
+    ], 
     "Rembrandt": [
         "8qGoAMf6NXo", 
         "7.1", 
@@ -119,6 +109,16 @@
         ], 
         "22 Jul, 2015"
     ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Minions": [
         "eisKxhjBnZ0", 
         "6.8", 
@@ -128,5 +128,16 @@
             "English"
         ], 
         "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "Hindi", 
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

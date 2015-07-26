@@ -11,11 +11,21 @@
     ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
             "Hindi"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Love 24 X 7": [
+        "7oNtU3ioam4", 
+        "6.5", 
+        "130 min", 
+        "Drama|Romance", 
+        [
+            "Malayalam"
         ], 
         "17 Jul, 2015"
     ], 
@@ -25,25 +35,34 @@
         "159 min", 
         "Action|Adventure|History", 
         [
-            "Tamil", 
             "Hindi", 
             "Telugu"
         ], 
         "10 Jul, 2015"
     ], 
-    "Inside Out": [
-        "WIDYqBMFzfg", 
-        "6.9", 
-        "82 min", 
-        "Horror|Thriller", 
+    "KL 10 Patthu": [
+        "PKHmB-ehdHU", 
+        "5.6", 
+        "13 min", 
+        "Short|Drama|Sci-Fi", 
         [
-            "English"
+            "Malayalam"
         ], 
-        "26 Jun, 2015"
+        "17 Jul, 2015"
+    ], 
+    "Bullet Basya": [
+        "4tYhZARq4K8", 
+        "5.4", 
+        "99 min", 
+        "Action|Drama", 
+        [
+            "Kannada"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "7.0", 
+        "6.5", 
         "138 min", 
         "Action", 
         [
@@ -81,25 +100,15 @@
         ], 
         "15 May, 2015"
     ], 
-    "Acha Din": [
-        "ERweLc0JhX8", 
-        "7.8", 
-        "108 min", 
-        "Drama|Sci-Fi", 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
         [
-            "Malayalam"
+            "Hindi"
         ], 
-        "17 Jul, 2015"
-    ], 
-    "Madhura Naranga": [
-        "cMb7SKbknhU", 
-        "7.5", 
-        "63 min", 
-        "Drama|Fantasy|Romance", 
-        [
-            "Malayalam"
-        ], 
-        "17 Jul, 2015"
+        "24 Jul, 2015"
     ], 
     "Minions": [
         "eisKxhjBnZ0", 
@@ -110,5 +119,15 @@
             "English"
         ], 
         "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

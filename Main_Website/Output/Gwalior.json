@@ -11,7 +11,7 @@
     ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
@@ -49,6 +49,16 @@
         ], 
         "26 Dec, 2014"
     ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "The House of Dead Horror": [
         "k8oG3qh7q-E", 
         "5.5", 
@@ -58,5 +68,16 @@
             "English"
         ], 
         "20 May, 2014"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "Hindi", 
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

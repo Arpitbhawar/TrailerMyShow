@@ -1,13 +1,23 @@
 {
-    "Papanasam": [
-        "oWow766xmy4", 
-        "8.9", 
-        "179 min", 
-        "Drama|Thriller", 
+    "Bajrangi Bhaijaan": [
+        "vyX4toD395U", 
+        "8.5", 
+        "163 min", 
+        "Comedy|Drama", 
+        [
+            "Hindi"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Naalu Policeum Nalla Irundha Oorum": [
+        "4Ty3ndY-s7A", 
+        "6.5", 
+        "105 min", 
+        "Drama", 
         [
             "Tamil"
         ], 
-        "3 Jul, 2015"
+        "24 Jul, 2015"
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
@@ -19,24 +29,44 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Bajrangi Bhaijaan": [
-        "vyX4toD395U", 
-        "8.4", 
-        "163 min", 
-        "Comedy|Drama", 
+    "Papanasam": [
+        "oWow766xmy4", 
+        "8.9", 
+        "179 min", 
+        "Drama|Thriller", 
         [
-            "Hindi"
+            "Tamil"
         ], 
-        "17 Jul, 2015"
+        "3 Jul, 2015"
     ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "7.0", 
+        "6.5", 
         "138 min", 
         "Action", 
         [
             "Tamil"
         ], 
         "17 Jul, 2015"
+    ], 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
+        [
+            "English"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

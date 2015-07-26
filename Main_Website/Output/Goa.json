@@ -1,23 +1,53 @@
 {
-    "Maari": [
-        "W3XFChOz-Z0", 
-        "7.0", 
-        "138 min", 
-        "Action", 
-        [
-            "Tamil"
-        ], 
-        "17 Jul, 2015"
-    ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
             "Hindi"
         ], 
         "17 Jul, 2015"
+    ], 
+    "Carry On Maratha": [
+        "u7g3uiiAssQ", 
+        "6.0", 
+        "100 min", 
+        "Drama|Horror", 
+        [
+            "Marathi"
+        ], 
+        "24 Jul, 2015"
+    ], 
+    "Baahubali - The Beginning": [
+        "3NQRhE772b0", 
+        "9.3", 
+        "159 min", 
+        "Action|Adventure|History", 
+        [
+            "Hindi"
+        ], 
+        "10 Jul, 2015"
+    ], 
+    "KL 10 Patthu": [
+        "PKHmB-ehdHU", 
+        "5.6", 
+        "13 min", 
+        "Short|Drama|Sci-Fi", 
+        [
+            "Malayalam"
+        ], 
+        "17 Jul, 2015"
+    ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Minions": [
         "eisKxhjBnZ0", 
@@ -29,14 +59,14 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Baahubali - The Beginning": [
-        "3NQRhE772b0", 
-        "9.3", 
-        "159 min", 
-        "Action|Adventure|History", 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
         [
-            "Hindi"
+            "English"
         ], 
-        "10 Jul, 2015"
+        "24 Jul, 2015"
     ]
 }

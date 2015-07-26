@@ -1,7 +1,17 @@
 {
+    "Aisa Yeh Jahaan": [
+        "6tC7wgEAna0", 
+        "7.3", 
+        "43 min", 
+        "Comedy|Sport", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
@@ -9,26 +19,35 @@
         ], 
         "17 Jul, 2015"
     ], 
+    "Carry On Maratha": [
+        "u7g3uiiAssQ", 
+        "6.0", 
+        "100 min", 
+        "Drama|Horror", 
+        [
+            "Marathi"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
         "9.3", 
         "159 min", 
         "Action|Adventure|History", 
         [
-            "Hindi", 
-            "Telugu"
+            "Hindi"
         ], 
         "10 Jul, 2015"
     ], 
-    "Bioscope": [
-        "Nlw58ZW-ViI", 
-        "7.0", 
-        "94 min", 
-        "Documentary|Drama", 
+    "Panhala": [
+        "MIHhQ-XAhGg", 
+        "0", 
+        "", 
+        "", 
         [
             "Marathi"
         ], 
-        "17 Jul, 2015"
+        "24 Jul, 2015"
     ], 
     "Ramabai Bhimrao Ambedkar": [
         "c06pT-YrUBQ", 
@@ -40,16 +59,6 @@
         ], 
         "7 Jan, 2011"
     ], 
-    "Killa": [
-        "5ORlbsJLJuQ", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Marathi"
-        ], 
-        "26 Jun, 2015"
-    ], 
     "Rembrandt": [
         "8qGoAMf6NXo", 
         "7.1", 
@@ -60,6 +69,16 @@
         ], 
         "22 Jul, 2015"
     ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Minions": [
         "eisKxhjBnZ0", 
         "6.8", 
@@ -69,5 +88,16 @@
             "English"
         ], 
         "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "Hindi", 
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

@@ -1,23 +1,23 @@
 {
-    "Kaaka Muttai": [
-        "bm6RCZgptkU", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Tamil"
-        ], 
-        "5 Jun, 2015"
-    ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
             "Hindi"
         ], 
         "17 Jul, 2015"
+    ], 
+    "Naalu Policeum Nalla Irundha Oorum": [
+        "4Ty3ndY-s7A", 
+        "6.5", 
+        "105 min", 
+        "Drama", 
+        [
+            "Tamil"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Baahubali - The Beginning": [
         "3NQRhE772b0", 
@@ -39,9 +39,19 @@
         ], 
         "3 Jul, 2015"
     ], 
+    "Guru Sukran": [
+        "hdbNztWLa4I", 
+        "5.4", 
+        "94 min", 
+        "Comedy|Fantasy|Music", 
+        [
+            "Tamil"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Maari": [
         "W3XFChOz-Z0", 
-        "7.0", 
+        "6.5", 
         "138 min", 
         "Action", 
         [
@@ -49,24 +59,34 @@
         ], 
         "17 Jul, 2015"
     ], 
-    "Romeo Juliet": [
-        "oYnJq-AcKJE", 
+    "AaviKumar": [
+        "go0iRwSW7EE", 
         "0", 
         "", 
         "", 
         [
             "Tamil"
         ], 
-        "12 Jun, 2015"
+        "24 Jul, 2015"
     ], 
-    "Indru Netru Naalai": [
-        "6YnVOsmfBQU", 
-        "8.4", 
-        "146 min", 
-        "Comedy|Sci-Fi", 
+    "Minions": [
+        "eisKxhjBnZ0", 
+        "6.8", 
+        "91 min", 
+        "Animation|Comedy|Family", 
         [
-            "Tamil"
+            "English"
         ], 
-        "26 Jun, 2015"
+        "10 Jul, 2015"
+    ], 
+    "Ant-Man": [
+        "QfOZWGLT1JM", 
+        "7.9", 
+        "117 min", 
+        "Action|Adventure|Sci-Fi", 
+        [
+            "English"
+        ], 
+        "24 Jul, 2015"
     ]
 }

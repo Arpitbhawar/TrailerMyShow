@@ -1,13 +1,33 @@
 {
+    "Aisa Yeh Jahaan": [
+        "6tC7wgEAna0", 
+        "7.3", 
+        "43 min", 
+        "Comedy|Sport", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
+    ], 
     "Bajrangi Bhaijaan": [
         "vyX4toD395U", 
-        "8.4", 
+        "8.5", 
         "163 min", 
         "Comedy|Drama", 
         [
             "Hindi"
         ], 
         "17 Jul, 2015"
+    ], 
+    "House of Dead": [
+        "yxvamxLFDjg", 
+        "8.9", 
+        "44 min", 
+        "Drama|Mystery", 
+        [
+            "English"
+        ], 
+        "26 Jul, 2015"
     ], 
     "Dinosaur Adventure": [
         "WuHj14V0xDk", 
@@ -19,22 +39,13 @@
         ], 
         "27 Dec, 2013"
     ], 
-    "Sardaar Ji": [
-        "MuMcSiIqCpc", 
-        "0", 
-        "", 
-        "", 
-        [
-            "Punjabi"
-        ], 
-        "26 Jun, 2015"
-    ], 
     "Ant-Man": [
         "QfOZWGLT1JM", 
-        "8.0", 
+        "7.9", 
         "117 min", 
         "Action|Adventure|Sci-Fi", 
         [
+            "Hindi", 
             "English"
         ], 
         "24 Jul, 2015"
@@ -49,78 +60,48 @@
         ], 
         "11 Nov, 2013"
     ], 
-    "Wild Roller Coaster": [
-        "tumI28B48wY", 
+    "Chaar Dhaam Yatra": [
+        "8qJ5VnJlUJ0", 
         "7.2", 
-        "115 min", 
-        "Adventure|Biography|Drama", 
+        "81 min", 
+        "Drama|Horror|Mystery", 
         [
             "English"
         ], 
-        "20 May, 2014"
+        "26 Jul, 2015"
     ], 
-    "End Of The World": [
-        "0IRrrLH3eS8", 
-        "5.0", 
-        "85 min", 
-        "Drama", 
+    "Toy Ride": [
+        "g69o3L4uUVM", 
+        "0", 
+        "", 
+        "", 
         [
             "English"
         ], 
-        "25 May, 2015"
+        "26 Jul, 2015"
     ], 
-    "Rembrandt": [
-        "8qGoAMf6NXo", 
-        "7.1", 
-        "85 min", 
-        "Biography|Drama", 
+    "Mr. Holmes": [
+        "qng3t9RZk6Q", 
+        "9.2", 
+        "60 min", 
+        "Crime|Drama", 
         [
             "English"
         ], 
-        "22 Jul, 2015"
+        "24 Jul, 2015"
     ], 
-    "Maari": [
-        "W3XFChOz-Z0", 
-        "7.0", 
-        "138 min", 
-        "Action", 
-        [
-            "Tamil"
-        ], 
-        "17 Jul, 2015"
-    ], 
-    "ABCD 2": [
-        "IKUtAC-dwFM", 
-        "5.7", 
-        "105 min", 
-        "Drama", 
-        [
-            "Hindi"
-        ], 
-        "19 Jun, 2015"
-    ], 
-    "Madhura Naranga": [
-        "cMb7SKbknhU", 
-        "7.5", 
-        "63 min", 
-        "Drama|Fantasy|Romance", 
-        [
-            "Malayalam"
-        ], 
-        "17 Jul, 2015"
-    ], 
-    "Magic Box": [
-        "gDMmi3KHNhg", 
-        "6.8", 
-        "107 min", 
-        "Horror", 
+    "The Siege Assault": [
+        "jXU5k4U8x20", 
+        "5.5", 
+        "13 min", 
+        "Short|Drama", 
         [
             "English"
         ], 
         "6 Jun, 2015"
     ], 
     "Roller Coaster To The Death Valley": [
-        "cqZRE5dYKgw", 
+        "wAT6E2lHUUc", 
         "0", 
         "", 
         "", 
@@ -140,7 +121,7 @@
         "10 Jul, 2015"
     ], 
     "The World Wide": [
-        "gR0FDi6fJUQ", 
+        "bDiplfxeCI4", 
         "5.5", 
         "13 min", 
         "Short|Drama", 
@@ -148,6 +129,16 @@
             "English"
         ], 
         "6 Jun, 2015"
+    ], 
+    "Roller Coaster": [
+        "AgyU22bU_xw", 
+        "0", 
+        "", 
+        "", 
+        [
+            "English"
+        ], 
+        "26 Jul, 2015"
     ], 
     "Inside Out": [
         "WIDYqBMFzfg", 
@@ -169,16 +160,6 @@
         ], 
         "3 Jul, 2015"
     ], 
-    "Ultimate Hunt": [
-        "Ky4sXEz520Y", 
-        "0", 
-        "", 
-        "", 
-        [
-            "English"
-        ], 
-        "6 Jun, 2015"
-    ], 
     "Hell": [
         "w37NGIjQqJQ", 
         "7.9", 
@@ -195,20 +176,39 @@
         "", 
         "", 
         [
-            "Hindi", 
             "English"
         ], 
         "11 Jun, 2015"
     ], 
-    "The Siege Assault": [
-        "jXU5k4U8x20", 
-        "5.5", 
-        "13 min", 
-        "Short|Drama", 
+    "Wild Roller Coaster": [
+        "tumI28B48wY", 
+        "7.2", 
+        "115 min", 
+        "Adventure|Biography|Drama", 
         [
             "English"
         ], 
-        "6 Jun, 2015"
+        "20 May, 2014"
+    ], 
+    "Rembrandt": [
+        "8qGoAMf6NXo", 
+        "7.1", 
+        "85 min", 
+        "Biography|Drama", 
+        [
+            "English"
+        ], 
+        "22 Jul, 2015"
+    ], 
+    "Masaan": [
+        "IVZzYa0MxM8", 
+        "8.3", 
+        "103 min", 
+        "Drama", 
+        [
+            "Hindi"
+        ], 
+        "24 Jul, 2015"
     ], 
     "Spy": [
         "YrY3v1eDmQY", 
@@ -221,7 +221,7 @@
         "19 Jun, 2015"
     ], 
     "Space Dogfight": [
-        "EdoGyvV6GMA", 
+        "Dm0g7mDKFq0", 
         "7.7", 
         "60 min", 
         "Drama|Sci-Fi", 
@@ -250,31 +250,11 @@
         ], 
         "10 Jul, 2015"
     ], 
-    "Red Alert": [
-        "24ezB9sgY0s", 
-        "7.1", 
-        "111 min", 
-        "Action|Comedy|Crime", 
-        [
-            "English"
-        ], 
-        "6 Jun, 2015"
-    ], 
-    "Dragon Valley": [
-        "wTyzDAjfPVo", 
-        "7.1", 
-        "115 min", 
-        "Action|Crime|Drama", 
-        [
-            "English"
-        ], 
-        "17 Jun, 2015"
-    ], 
-    "Acha Din": [
-        "ERweLc0JhX8", 
-        "7.8", 
-        "108 min", 
-        "Drama|Sci-Fi", 
+    "KL 10 Patthu": [
+        "PKHmB-ehdHU", 
+        "5.6", 
+        "13 min", 
+        "Short|Drama|Sci-Fi", 
         [
             "Malayalam"
         ], 
@@ -329,5 +309,15 @@
             "English"
         ], 
         "20 May, 2014"
+    ], 
+    "Lovely Te Lovely": [
+        "NmvqUfZT_fo", 
+        "0", 
+        "", 
+        "", 
+        [
+            "Punjabi"
+        ], 
+        "24 Jul, 2015"
     ]
 }
